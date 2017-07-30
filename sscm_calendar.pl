@@ -60,17 +60,20 @@ my $renovation = 0;
 
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
-my $output_excel = 0;
+my $output_excel = 1;
 my $output_ical = 0;
-my $output_csv = 1; # for the Michael Mann website thing
+my $output_csv = 0; # for the Michael Mann website thing
+
+# Shmuel wanted us to just put bold around all of the categories and none of the
+# times, but then he changed his mind.
+my $bold_everything_in_ical = 0;
 
 #   Here we set the year and months to output to Excel
    # TODO: HACK: I should make this data driven
-my $curr_year = 2016;
+my $curr_year = 2017;
 my $next_year = $curr_year + 1;
-my @months_to_print = ("$curr_year,5");
 # Un-comment whichever months are to be printed.
-@months_to_print = (
+my @months_to_print = (
             "$curr_year,9",
             "$curr_year,10",
             "$curr_year,11",
@@ -98,7 +101,7 @@ my $full_month_per_page = 0;
 my $sept_start_third_week_2009 = 0;
 
 # Default input filename; can be overridden by command-line argument.
-my $default_hebcal_file = "all_calendar_years.txt";
+my $default_hebcal_file = "dates.txt";
     # "c:/Documents and Settings/Ari-user/My Documents/Activism/SSCM/Bulletin automation/all_calendar_years.txt";
     # "c:/sscm_calendar/hebcal2007.txt";
 
@@ -219,10 +222,34 @@ my %holidays_found;
 # Main Excel application object.
 my $Excel;
 
+# darwin is osx.  I should probably be checking if the OS is Windows, not if it
+# isn't osx, but I'm on a Mac right now, and I'm not sure what Windows reports
+# as the OS 
+if ($^O ne "darwin") {
 # For some reason, the following two lines are needed for writing unicode
 # (e.g. Hebrew characters) to Excel.
-use Win32::OLE qw(CP_UTF8);
-$Win32::OLE::CP = CP_UTF8;
+  eval 'use Win32::OLE qw(CP_UTF8)';
+  eval '$Win32::OLE::CP = CP_UTF8';
+  eval 'use Win32::OLE;';
+  eval "use Win32::OLE::Const 'Microsoft Excel';";
+  eval 'use Win32::OLE qw(in with);';
+  eval 'use Win32::OLE::Variant;';
+}
+else {
+  # Dummy functions to avoid bareword warnings on Mac
+  sub xlCenter {die "Should not be called";}
+  sub xlLeft {die "Should not be called";}
+  sub xlTop {die "Should not be called";}
+  sub VT_BOOL {die "Should not be called";}
+  sub VT_I4 {die "Should not be called";}
+  sub xlPortrait {die "Should not be called";}
+  sub xlLandscape {die "Should not be called";}
+  sub xlThin {die "Should not be called";}
+  sub xlEdgeLeft {die "Should not be called";}
+  sub xlEdgeTop {die "Should not be called";}
+  sub xlEdgeBottom {die "Should not be called";}
+  sub xlEdgeRight {die "Should not be called";}
+}
 
 my $alef = chr(0x05d0);     # 0x indicates hexadecimal values
 my $bet = chr(0x05d1);
@@ -631,7 +658,7 @@ sub main
       }
       $output_filename = "sscm_" . $hebcal_file . $thingy;
       $output_filename =~ s/\.txt//;
-      print "Dumping with $output_format_compact to $output_filename\n";
+      print "Dumping with output format $output_format_compact to $output_filename\n";
       dump_calendar();
    }
 
@@ -1610,6 +1637,11 @@ sub prepare_print_order()
                # Don't insert whitespace before the value.
                $need_space = 0;
             }
+            elsif ($bold_everything_in_ical) {
+               # Just use html bold tags.  We'll remove all of the other
+               # formatting tags when we're ready to print to ical.
+               $string_to_print = $string_to_print . "<b>$item</b>";
+            }
             else
             {
                # Start off with the item's name.
@@ -1722,13 +1754,13 @@ sub dump_csv()
       foreach $item (@{$print_data_for_day[$idx]})
       {
 
-               # Perl gives a warning when printing a bullet to the text file, so just replace it with a space
-               # Declare a new variable so that it doesn't change the original value in the print_data_for_day array
-               my $item_to_print = get_text_safe($item);
+           # Perl gives a warning when printing a bullet to the text file, so just replace it with a space
+           # Declare a new variable so that it doesn't change the original value in the print_data_for_day array
+           my $item_to_print = get_text_safe($item);
 
            # Remove all the bolding and such.  For now, don't
            # do anything with the information.
-               my ($newitem, $bold, $italic, $partial_bold, $size) = identify_special_codes($item_to_print);
+           my ($newitem, $bold, $italic, $partial_bold, $size) = identify_special_codes($item_to_print);
 
            # The above doesn't remove partial bolds, so do that manually.
            $newitem =~ s/$START_BOLD//g;
@@ -1881,6 +1913,7 @@ sub dump_ical_calendar()
    print "Producing ical file output to $ical_filename\n";
 
    open (ICAL, ">$ical_filename") || croak "Error: couldn't open $ical_filename\n";
+   binmode(ICAL, ":utf8");
 
    my $crlf = "\n"; # "\015\012";
    print ICAL "BEGIN:VCALENDAR$crlf";
@@ -1908,15 +1941,17 @@ sub dump_ical_calendar()
       }
       # I just make all times midnight.  Not sure what the last
       # two digits or Z mean.
-      my $date_string = $year . $imonth . $iday . "T000000Z";
+#      my $date_string = $year . $imonth . $iday . "T000000";
+      my $date_string = $year . $imonth . $iday;
 
-      if (($year == 2012 && $imonth >= 9) || ($year == 2013 && $imonth <= 10))  # NEED TO FIX THIS CONDITION
+      # Try to use @months_to_print here...
+      if (($year == $curr_year && $imonth >= 9) || ($year == $curr_year+1 && $imonth <= 10))  
       {
-      $print_ical = 1;
+        $print_ical = 1;
       }
       else
       {
-      $print_ical = 0;
+        $print_ical = 0;
       }
 
       if ($print_ical)
@@ -1925,8 +1960,14 @@ sub dump_ical_calendar()
          print ICAL "UID:sscm" . $day->{idx} . "\@sscm.org$crlf";
          print ICAL "DTSTAMP:$date_string$crlf";
          print ICAL "DTSTART:$date_string$crlf";
-         print ICAL "DTEND:$date_string$crlf";
-         print ICAL "SUMMARY:";
+
+         my $heb_date_in_hebrew = convert_number_to_hebrew($day->{Hday}, undef) . " " .
+                $hebrew_month_unicode{$day->{Hmon}} . " " .
+                            get_hebrew_year_string($day);
+
+#         print ICAL "DTEND:$date_string$crlf";
+         print ICAL "SUMMARY:$heb_date_in_hebrew$crlf";
+         print ICAL "DESCRIPTION:";
 
          foreach my $item (@{$print_data_for_day[$idx]})
          {
@@ -1934,7 +1975,18 @@ sub dump_ical_calendar()
             # Declare a new variable so that it doesn't change the original value in the print_data_for_day array
             my $item_to_print = get_text_safe($item);
 
-            my ($ical_item_to_print, $at, $bash, $gar, $dak)  = identify_special_codes($item_to_print);
+            my ($ical_item_to_print, $bold, $italic, $partial_bold, $size)  = identify_special_codes($item_to_print);
+            
+            # Do we want to disable other bolding if we're already bolding all
+            # of the titles in ical ($bold_everything_in_ical)?
+            $ical_item_to_print =~ s/$START_BOLD/<b>/g;
+            $ical_item_to_print =~ s/$END_BOLD/<b>/g;
+            if ($bold) {
+              $ical_item_to_print = "<b>$ical_item_to_print</b>";
+            }
+            if ($italic) {
+              $ical_item_to_print = "<em>$ical_item_to_print</em>";
+            }
             print ICAL "$crlf $ical_item_to_print\\n";
          }
 
@@ -7039,11 +7091,6 @@ sub dump_excel_calendar()
    #
    # Also, I should move the entire first chunk of this function into
    # its own routine.
-   use Win32::OLE;
-   use Win32::OLE::Const 'Microsoft Excel';
-   use Win32::OLE qw(in with);
-   use Win32::OLE::Variant;
-
    print "Opening Excel...\n";
 
    # this doesn't happen in 2006-2019.  When will it happen next?  Calendrical exercise.    May 2022 contains Nisan, Iyyar, Sivan.
