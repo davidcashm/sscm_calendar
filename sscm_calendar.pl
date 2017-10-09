@@ -1,7 +1,7 @@
 #!perl.exe -w
 
-# sscm_calendar_2016.pl
-# Copyright (C) 2007-2016 David Cashman and Ari Meir Brodsky
+# sscm_calendar_2017.pl
+# Copyright (C) 2007-2017 David Cashman and Ari Meir Brodsky
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -60,8 +60,8 @@ my $renovation = 0;
 
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
-my $output_excel = 1;
-my $output_ical = 0;
+my $output_excel = 0;
+my $output_ical = 1;
 my $output_csv = 0; # for the Michael Mann website thing
 
 # Shmuel wanted us to just put bold around all of the categories and none of the
@@ -237,18 +237,18 @@ if ($^O ne "darwin") {
 }
 else {
   # Dummy functions to avoid bareword warnings on Mac
-  sub xlCenter {die "Should not be called";}
-  sub xlLeft {die "Should not be called";}
-  sub xlTop {die "Should not be called";}
-  sub VT_BOOL {die "Should not be called";}
-  sub VT_I4 {die "Should not be called";}
-  sub xlPortrait {die "Should not be called";}
-  sub xlLandscape {die "Should not be called";}
-  sub xlThin {die "Should not be called";}
-  sub xlEdgeLeft {die "Should not be called";}
-  sub xlEdgeTop {die "Should not be called";}
-  sub xlEdgeBottom {die "Should not be called";}
-  sub xlEdgeRight {die "Should not be called";}
+  sub xlCenter {croak "Should not be called";}
+  sub xlLeft {croak "Should not be called";}
+  sub xlTop {croak "Should not be called";}
+  sub VT_BOOL {croak "Should not be called";}
+  sub VT_I4 {croak "Should not be called";}
+  sub xlPortrait {croak "Should not be called";}
+  sub xlLandscape {croak "Should not be called";}
+  sub xlThin {croak "Should not be called";}
+  sub xlEdgeLeft {croak "Should not be called";}
+  sub xlEdgeTop {croak "Should not be called";}
+  sub xlEdgeBottom {croak "Should not be called";}
+  sub xlEdgeRight {croak "Should not be called";}
 }
 
 my $alef = chr(0x05d0);     # 0x indicates hexadecimal values
@@ -433,12 +433,14 @@ my $shabbos_shacharis_with_hallel = $yom_tov_shacharis;     # implementing this 
 my $chumash_shiur_special = $START_BOLD . "8:00$END_BOLD"; # for Shabbatot when Shacharis is at 9:00 rather than 9:15
 my $rosh_chodesh_shacharis = $START_BOLD . "6:30" . $separator . "6:45" . $END_BOLD . $separator . "7:30";
                                             # "$START_BOLD" . "6:35/6:45$END_BOLD/7:30";
-my $earliest_shacharis_before_sunrise = 69; # for Rosh Chodesh - can't make Shacharis too early
-my $fast_day_shacharis = "6:45" . $separator . "6:50" . $separator . "7:30";
-                # don't need any bold for fast day Shacharis any more because it's the same as every day!  NOTE used also for Chanuka
+my $earliest_shacharis_before_sunrise = 69; # for Rosh Chodesh and fast days - can't make Shacharis too early
+my $fast_day_shacharis = $START_BOLD . "6:30" . $END_BOLD . $separator . "6:50" . $separator . "7:30";
+		# "6:45" . $separator . "6:50" . $separator . "7:30";
+my $chanuka_shacharis = "6:45" . $separator . "6:50" . $separator . "7:30";
+                # don't need any bold for Chanuka Shacharis any more because it's the same as every day!
+                # NOTE this used to be the same as fast days, until fast days were changed in 5778
 my $tisha_bav_weekday_shacharis = $BOLD . "6:30" . $separator . "7:30" . $separator . "8:30";
 my $tisha_bav_sunday_shacharis = $BOLD . "7:30" . $separator . "8:30";
-my $chanuka_shacharis = $fast_day_shacharis;
 my $shavuos_shacharis = $BOLD . "9:00"; # also add vasikin
 #my $shavuos_shacharis = $BOLD . "5:00**/9:00";
 # Rosh Hashana.
@@ -496,6 +498,8 @@ my $shabbos_no_ss_mincha_length = 25;   # for a Shabbos when there's no Shalosh 
 my $shabbos_no_ss_early_mincha = "2:30";    # early Mincha so people can eat SS at home afterward on erev yom tov or first day of YT
 my $shemini_atzeres_mincha_earlier = 15;  # in 2015 moved Mincha earlier on Shemini Atzeres to allow more time for auction
 
+my $shavuos_early_mincha = "6:00";	# added this in 2016
+
 my $likras_shabbos_length = 30;
 
 
@@ -529,6 +533,7 @@ my %pesach_recess_start_date = (
 	5775 => 9,
 	5776 => 11,
 	5777 => 8,
+	5778 => 11,
 );
 
 # siyum times for erev Pesach
@@ -1256,30 +1261,32 @@ sub apply_basic_rules()
                 # But then after the season ended in 2012 he said it should be discontinued when the start time would get later than 7:45.
                 # Then in 2013 decided that latest start time should be 7:30.
 		# Then in 2014 it continued all the way to the clock change, and Ittamar gave me the times for 2015
+		# In 2017 Elli Schochet said "Avos Ubanim should stop once Shabbos comes out past 6:30."
+		#  I think that means we're reverting to the rules from 2013.
 
-		my $aub_start = is_earlier($motz, "6:01") ?
-						"7:00" :
-					is_earlier ($motz, "6:11") ?
-						"7:15" :
-						"7:30";
+      #my $aub_start = is_earlier($motz, "6:01") ?
+		#				"7:00" :
+		#			is_earlier ($motz, "6:11") ?
+		#				"7:15" :
+		#				"7:30";
 		##  Notice that Shabbos may end as late as 7:06 on the eve of the clock change - will AUB still start 7:30?
-		if (is_earlier ("7:00", $motz))
-		{
-			warn "Check Avos UBanim on " . print_date ($day) . " less than half an hour after Motzoai Shabbos.\n";
-		}
+      #if (is_earlier ("7:00", $motz))
+		#{
+		#	warn "Check Avos UBanim on " . print_date ($day) . " less than half an hour after Motzoai Shabbos.\n";
+		#}
 
 		# RULES FROM 2013, sort of:
-                #my $aub_start = add_minutes (round_up_to_n_minutes ($motz, 15), 60);
-                #if (is_earlier($aub_start, "7:00"))
-                #{
-                #    $aub_start = "7:00";
-                #}
+                my $aub_start = add_minutes (round_up_to_n_minutes ($motz, 15), 60);
+                if (is_earlier($aub_start, "7:00"))
+                {
+                    $aub_start = "7:00";
+                }
 
                 my $aub_end = add_minutes ($aub_start, 60);
-                #if (is_earlier($aub_start, "7:31"))
-                #{
+                if (is_earlier($aub_start, "7:31"))
+                {
                     $day->{to_print}->{"Avos UBanim"} = $aub_start . "-" . $aub_end;
-                #}
+                }
 
                 # OLD RULES UNTIL 2011 (sort of - weren't exactly followed)
                 ## It should start no sooner than 45 minutes after shabbos
@@ -1803,7 +1810,7 @@ sub dump_csv()
 #           if ($desc =~ /\"/)
 #           {
 #              # Try single quotes.
-#          die if ($desc =~ /\'/);
+#          croak if ($desc =~ /\'/);
 #              $desc = "'$desc'";
 #           }
 #           else
@@ -4109,7 +4116,7 @@ sub handle_yom_tov($$$$$)
         {
             $first_day->{to_print}->{"Navi Shiur"} = subtract_minutes($first_day->{to_print}->{Mincha},45);
         }
-        ### Adding 2:00 Mincha Gedola for same reason as when erev yom tov falls on Shabbos,
+        ### Adding 2:00(2:30) Mincha Gedola for same reason as when erev yom tov falls on Shabbos,
         ### but presumably not for Rosh HaShana since morning davening ends so late!
         if (!$is_rh)
         {
@@ -4196,6 +4203,14 @@ sub handle_yom_tov($$$$$)
         $second_day->{to_print}->{Mincha} = round_down_to_5_minutes(subtract_minutes($second_sunset, $mincha_before_sunset));
         $second_day_set = 1;     # probably don't need the flag any more, but just in case
     }
+
+	## They added a 6:00 Mincha on both days of Shavuos, starting in 5776.
+	## (Presumably not on Friday; and Shabbos is already covered by previous rules.)
+	if ($first_day_name =~ /Shavuos/ && $first_day->{day_of_week} ne "Fri")
+	{
+		$first_day->{to_print}->{Mincha} = $shavuos_early_mincha . $separator . $first_day->{to_print}->{Mincha};
+		$second_day->{to_print}->{Mincha} = $shavuos_early_mincha . $separator . $second_day->{to_print}->{Mincha};
+	}
 
     # Maariv never gets printed on Erev yom tov or yom tov itself
     delete $first_day->{to_print}->{Maariv};
@@ -4558,9 +4573,13 @@ sub handle_fast_days
 #    print "$day->{Eyear}/$day->{Emon}/$day->{Eday} new value was " . $day->{to_print}->{"Fast begins"} . "\n";
 
          if ($day->{to_print}->{Shacharis} !~ /$sunday_shacharis/
-                        && !defined($day->{public_holiday}))
+                        && !defined($day->{public_holiday})
+                        && $name ne $tg)
+                        # Tzom Gedalia Shacharis time will be overridden by Slichos anyway; don't want to clutter with tefillin time
          {
             $day->{to_print}->{Shacharis} = $fast_day_shacharis;
+            # we may have set the early Shacharis too early, so check it against the tefillin time
+            check_tefillin_time($day, 1);
          }
 
          my $sunset = get_sunset($day);
@@ -4575,7 +4594,10 @@ sub handle_fast_days
             # on Taanis Esther that does not fall on erev Purim (maybe not).
             #  AB Should we remove 9:30 Maariv if 10 Tevet is on a public holiday?  We may have to reverse the order of the functions.
             #  (First happens in 5775 / Jan. 2015.) DONE as we did reverse the order and now relying on previously set $fast_day_shacharis
-            if (($name eq $abt && $day->{to_print}->{Shacharis} =~ $fast_day_shacharis)
+            if (($name eq $abt && ($day->{to_print}->{Shacharis} !~ /$sunday_shacharis/
+                        && !defined($day->{public_holiday}))
+            			# $day->{to_print}->{Shacharis} =~ $fast_day_shacharis
+		)
                     # || ($name eq $te && $day->{Hday} != 13)  # This was added last-minute in 5767 but we'll remove it for 5770.
                )
             {
@@ -4933,7 +4955,7 @@ sub handle_tisha_bav  # includes labelling Shabbos Chazon and Shabbos Nachamu (A
          # Notice sunset on erev Tisha B'Av can range from 8:23 to 8:57
          add_early_shabbos_mincha_if_applicable($erev);
 	warn "Check Shabbos Mincha schedule for erev Tisha B'Av on " . print_date($erev) .  "\n";
-	### NOTE IN 2016 THEY ADDED 2:30 MINCHA
+	### NOTE IN 2016 THEY ADDED 2:30 MINCHA (the regular one was at 6:20)
 
          # Until 2012 we scheduled Maariv at least 25 minutes after motzoai shabbos.
          # But in 2012 people complained it was too early for those who keep 72 min
@@ -5465,7 +5487,13 @@ sub handle_kiddush_levana()
     # For September 2015:
     handle_eclipse(2015,9,27);
 
-    warn "Lunar eclipses considered only until 2017.  Beyond then, Kiddush Levana is calculated based on the molad only." .
+    # For January 2018 (barely visible here, partial eclipse leading to moonset just before U2):
+    handle_eclipse(2018,1,30);
+    
+    # July 2018 eclipse not visible here
+    # January 2019 eclipse after deadline
+
+    warn "Lunar eclipses considered only until 2020.  Beyond then, Kiddush Levana is calculated based on the molad only." .
         " The deadline may be earlier if there is a lunar eclipse.\n\n";
 
     # handle_kiddush_levana_5770(); ## Don't need this any more!!
@@ -6162,6 +6190,8 @@ sub apply_special_quirks()
 	[2016,8,13],
 	[2016,8,20],
 #	[2017,3,11],
+	[2017,12,16],
+	[2018,7,21],
     );
 
     foreach my $date (@combine_prenotes)
@@ -6274,6 +6304,13 @@ sub apply_special_quirks()
         [2016,11,5],
         [2017,3,11],
         [2017,3,12],
+        [2017,10,21],
+        [2017,12,16],
+        [2018,1,30],
+        [2018,5,28],
+        [2018,8,11],
+        [2018,8,25],
+        [2018,10,2],
     );
 
 #    if (!$output_csv)
@@ -7262,7 +7299,7 @@ sub print_month_to_excel ($$$)
       # third shabbos of the month is always the last one printed.
       #  BUT THAT'S NOT ALWAYS BEST: Sometimes only two on the first sheet
       my $weeks_fit_on_first_page = 3;
-      if ($month_string eq "2017,3")  # SHOULD DO THIS MORE GENERALLY!
+      if ($month_string =~ /(2017,3|2018,4)/)  # SHOULD DO THIS MORE GENERALLY!
       {
       	$weeks_fit_on_first_page = 2;
       }
@@ -7971,6 +8008,14 @@ sub set_up_for_printing ($$$)
         $sheet->Columns("D:D")->{ColumnWidth} = 16;
         $sheet->Columns("E:E")->{ColumnWidth} = 20;
    }
+   elsif ($sheet->{Name} =~ /2018_3_1/)
+   {
+        $sheet->Columns("A:A")->{ColumnWidth} = 16.43;
+        $sheet->Columns("B:B")->{ColumnWidth} = 16.43;
+        $sheet->Columns("C:C")->{ColumnWidth} = 16.43;
+        $sheet->Columns("D:D")->{ColumnWidth} = 16.43;
+        $sheet->Columns("E:E")->{ColumnWidth} = 22.57;
+   }
 
 
 
@@ -8288,7 +8333,7 @@ sub compute_suntime($$$)
    my $localOffset = -5;
 
    my ($day,$cos_zenith,$type) = @_;
-   die if ($type ne "Sunrise" && $type ne "Sunset");
+   croak if ($type ne "Sunrise" && $type ne "Sunset");
 
    # Inputs: day, month, year.
    my $day_of_month = $day->{Eday};
@@ -8368,7 +8413,7 @@ sub compute_suntime($$$)
 
    # If either of these are true, then the sun never rises/sets
    # at this location/date, but that should never happen for Toronto.
-   die if ($cosH > 1 || $cosH < -1);
+   croak if ($cosH > 1 || $cosH < -1);
 
    # Step 7b. Calculate H and convert into hours.
    my $H;
@@ -8378,7 +8423,7 @@ sub compute_suntime($$$)
    }
    else
    {
-      die if $type ne "Sunset";
+      croak if $type ne "Sunset";
       $H = 180/pi*acos($cosH);
    }
 
