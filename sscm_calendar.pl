@@ -61,8 +61,9 @@ my $renovation = 0;
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
 my $output_excel = 0;
-my $output_ical = 1;
+my $output_ical = 0;
 my $output_csv = 0; # for the Michael Mann website thing
+my $output_csvtable = 0; # csv with headings and filtered columns
 
 # Shmuel wanted us to just put bold around all of the categories and none of the
 # times, but then he changed his mind.
@@ -624,13 +625,39 @@ exit(0);
 
 sub main
 {
-   my $hebcal_file = $ARGV[0]; # "c:/sscm_calendar/hebcal2007.txt";
+   my $hebcal_file = undef;
+
+   while (my $opt = shift @ARGV) {
+     if ($opt eq "-excel") {
+       $output_excel = 1;
+     }
+     elsif ($opt eq "-csv") {
+       $output_csv = 1;
+     }
+     elsif ($opt eq "-csvtable") {
+       $output_csvtable = 1;
+     }
+     elsif ($opt eq "-ical") {
+       $output_ical = 1;
+     }
+     elsif (!defined($hebcal_file)) {
+       $hebcal_file = $opt;
+     }
+     else {
+       croak "Unexpected option $opt\n";
+     }
+   }
+
+   if (!($output_excel || $output_csv || $output_ical || $output_csvtable)) {
+     croak "Must specify output format (-csv, -excel, -ical)\n";
+   }
+
+
    if (!$hebcal_file)
    {
         $hebcal_file = $default_hebcal_file;
         warn "No file input argument supplied.\n".
                 "Using default filename  $hebcal_file \n\n";
-      # croak "File input argument required.  Currently calendar_2008_2009.txt\n";
    }
    chomp $hebcal_file;
 
@@ -672,27 +699,20 @@ sub main
         dump_excel_calendar();
         # warn "The following note needs to be inserted in every month from April through August:\n$kindly_note";
    }
-   else
-   {
-        warn "Not producing Excel output because flag is set to 0.  To produce Excel output, change the variable \$output_excel to 1.\n";
-   }
 
    if ($output_ical)
    {
         dump_ical_calendar();
-   }
-   else
-   {
-        warn "Not producing ical output because flag is set to 0.  To produce ical output, change the variable \$output_ical to 1.\n";
    }
 
    if ($output_csv)
    {
         dump_csv();
    }
-   else
+   
+   if ($output_csvtable)
    {
-        warn "Not producing csv output because flag is set to 0.  To produce csv output, change the variable \$output_csv to 1.\n";
+        dump_csvtable();
    }
 }
 
@@ -1665,12 +1685,7 @@ sub prepare_print_order()
             # zmaniot.
             if ($time ne $NOTIME)
             {
-               # Remove decimals
-               $time =~ s/:(\d+)\.\d+([^\d])/:$1$2/g;
-               $time =~ s/:(\d+)\.\d+$/:$1/g;
-               # Fix single digit minutes
-               $time =~ s/:(\d[^\d])/:0$1/g;
-               $time =~ s/:(\d)$/:0$1/;
+               $time = clean_time($time);
 
                if ($need_space)
                {
@@ -1705,6 +1720,71 @@ sub prepare_print_order()
             push @{$print_data_for_day[$idx]}, $note;
          }
       }
+   }
+}
+
+sub dump_csvtable()
+{
+   warn "Producing .csv file output in table format .\n";
+   my $output_filename = "sscm_calendar_table.csv";
+   open (UTFOUT, ">$output_filename") || croak "Error: couldn't open $output_filename\n";
+   # Michael Mann wants the date in Hebrew
+   binmode(UTFOUT, ":utf8");
+
+   my @headings = ("Shacharis", "Mincha", "Maariv");
+   # Header
+   print UTFOUT "Date";
+   for my $h (@headings) {
+     print UTFOUT ",$h";
+   }
+   print UTFOUT "\n";
+
+   foreach my $day (@list_of_days)
+   {
+      my $idx = $day->{idx};
+      if ($idx == 0)
+      {
+         next;
+      }
+
+      # FIX THIS - NEED TO SET THE MONTHS TO OUTPUT - should probably be the same as used for the Excel output
+      if ($idx < index_of_date($curr_year,9,1) || $idx > index_of_date($next_year,10,31))
+      {
+            next;
+      }
+      
+      # For now, we only want Sun-Thurs for this format
+      if ($day->{day_of_week} eq "Fri" || $day->{day_of_week} eq "Sat") {
+        next;
+      }
+
+      my $eng_date = $day->{Eyear} . "/" . $day->{Emon} . "/" . $day->{Eday};
+
+      print UTFOUT "$eng_date";
+
+      for my $h (@headings) {
+        my $rawtime = $day->{to_print}->{$h};
+        if (defined($rawtime)) {
+          $rawtime = clean_time($rawtime);
+
+          my ($time, $bold, $italic, $partial_bold, $size)  = identify_special_codes($rawtime);
+          
+          $time =~ s/$START_BOLD/<b>/g;
+          $time =~ s/$END_BOLD/<\/b>/g;
+          if ($bold) {
+            $time = "<b>$time</b>";
+          }
+          if ($italic) {
+            $time = "<em>$time</em>";
+          }
+
+          print UTFOUT ",$time";
+        }
+        else {
+          print UTFOUT ",";
+        }
+      }
+      print UTFOUT "\n";
    }
 }
 
@@ -1987,7 +2067,7 @@ sub dump_ical_calendar()
             # Do we want to disable other bolding if we're already bolding all
             # of the titles in ical ($bold_everything_in_ical)?
             $ical_item_to_print =~ s/$START_BOLD/<b>/g;
-            $ical_item_to_print =~ s/$END_BOLD/<b>/g;
+            $ical_item_to_print =~ s/$END_BOLD/<\/b>/g;
             if ($bold) {
               $ical_item_to_print = "<b>$ical_item_to_print</b>";
             }
@@ -6361,6 +6441,18 @@ sub apply_special_quirks()
 ####                         #####
 ##################################
 
+sub clean_time($)
+{
+   # Return a cleaner string to represent the time
+   # Remove decimals
+   my $time = shift @_;
+   $time =~ s/:(\d+)\.\d+([^\d])/:$1$2/g;
+   $time =~ s/:(\d+)\.\d+$/:$1/g;
+   # Fix single digit minutes
+   $time =~ s/:(\d[^\d])/:0$1/g;
+   $time =~ s/:(\d)$/:0$1/;
+   return $time;
+}
 sub hour($)
 {
    # Return the hour in the given time.

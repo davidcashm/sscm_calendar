@@ -1,0 +1,5385 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:SSCMCAL
+BEGIN:VEVENT
+UID:sscm610@sscm.org
+DTSTAMP:20170901
+DTSTART:20170901
+SUMMARY:י׳ אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:45\n
+ ·Mincha 6:15 / 7:15\n
+ ·Plag HaMincha 6:32\n
+ ·Candle Lighting 7:36*\n
+ ·Sunset 7:54\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm611@sscm.org
+DTSTAMP:20170902
+DTSTART:20170902
+SUMMARY:י״א אלול תשע״ז
+DESCRIPTION:
+ <b>Ki Seitzei</b>\n
+ ·Sunrise 6:42\n
+ ·Latest Sh'ma 9:23 / 9:59\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #2 5:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Shiurim 6:15\n
+ ·Navi Shiur 6:30\n
+ ·Sunset 7:52\n
+ ·Avos 8:15\n
+ ·Motzoai Shabbos 8:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm612@sscm.org
+DTSTAMP:20170903
+DTSTART:20170903
+SUMMARY:י״ב אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm613@sscm.org
+DTSTAMP:20170904
+DTSTART:20170904
+SUMMARY:י״ג אלול תשע״ז
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm614@sscm.org
+DTSTAMP:20170905
+DTSTART:20170905
+SUMMARY:י״ד אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+ <b>Kiddush Levana only until 10:45 p.m.</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm615@sscm.org
+DTSTAMP:20170906
+DTSTART:20170906
+SUMMARY:ט״ו אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm616@sscm.org
+DTSTAMP:20170907
+DTSTART:20170907
+SUMMARY:ט״ז אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm617@sscm.org
+DTSTAMP:20170908
+DTSTART:20170908
+SUMMARY:י״ז אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:35\n
+ ·Mincha 6:05 / 7:15\n
+ ·Plag HaMincha 6:21\n
+ ·Candle Lighting 7:23*\n
+ ·Sunset 7:41\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm618@sscm.org
+DTSTAMP:20170909
+DTSTART:20170909
+SUMMARY:י״ח אלול תשע״ז
+DESCRIPTION:
+ <b>Ki Savo</b>\n
+ ·Sunrise 6:50\n
+ ·Latest Sh'ma 9:26 / 10:02\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #3-4 5:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Shiurim 6:05\n
+ ·Navi Shiur 6:20\n
+ ·Sunset 7:39\n
+ ·Avos 8:05\n
+ ·Motzoai Shabbos 8:24\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm619@sscm.org
+DTSTAMP:20170910
+DTSTART:20170910
+SUMMARY:י״ט אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm620@sscm.org
+DTSTAMP:20170911
+DTSTART:20170911
+SUMMARY:כ׳ אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm621@sscm.org
+DTSTAMP:20170912
+DTSTART:20170912
+SUMMARY:כ״א אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm622@sscm.org
+DTSTAMP:20170913
+DTSTART:20170913
+SUMMARY:כ״ב אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm623@sscm.org
+DTSTAMP:20170914
+DTSTART:20170914
+SUMMARY:כ״ג אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm624@sscm.org
+DTSTAMP:20170915
+DTSTART:20170915
+SUMMARY:כ״ד אלול תשע״ז
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:25\n
+ ·Mincha 5:55 / 7:10\n
+ ·Plag HaMincha 6:10\n
+ ·Candle Lighting 7:10*\n
+ ·Sunset 7:28\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm625@sscm.org
+DTSTAMP:20170916
+DTSTART:20170916
+SUMMARY:כ״ה אלול תשע״ז
+DESCRIPTION:
+ <b>Nitzavim-Vayeilech</b>\n
+ ·Sunrise 6:58\n
+ ·Latest Sh'ma 9:29 / 10:05\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #5-6 5:30\n
+ ·Shiurim 5:50\n
+ ·Mincha 6:00 / 6:50\n
+ ·Navi Shiur 6:05\n
+ ·Sunset 7:27\n
+ ·Avos 7:50\n
+ ·Motzoai Shabbos 8:12\n
+ ·Teshuva Shiur 11:45\n
+ <b>·Slichos 1:00 a.m.</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm626@sscm.org
+DTSTAMP:20170917
+DTSTART:20170917
+SUMMARY:כ״ו אלול תשע״ז
+DESCRIPTION:
+ <b>·Slichos 1:00 a.m.</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm627@sscm.org
+DTSTAMP:20170918
+DTSTART:20170918
+SUMMARY:כ״ז אלול תשע״ז
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm628@sscm.org
+DTSTAMP:20170919
+DTSTART:20170919
+SUMMARY:כ״ח אלול תשע״ז
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm629@sscm.org
+DTSTAMP:20170920
+DTSTART:20170920
+SUMMARY:כ״ט אלול תשע״ז
+DESCRIPTION:
+ <b>Erev Rosh Hashana</b>\n
+ <b>·Slichos 5:30 only</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Hataras Nedarim</b>\n
+ <b>·Eiruv Tavshilin</b>\n
+ ·Candle Lighting 7:01\n
+ ·Mincha 7:05\n
+ ·Sunset 7:19\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm630@sscm.org
+DTSTAMP:20170921
+DTSTART:20170921
+SUMMARY:א׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>First Day of Rosh Hashana 5778</b>\n
+ ·Sunrise 7:03\n
+ ·Latest Sh'ma 9:30 / 10:06\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:35\n
+ <b>·Shofar 11:00 (approx.)</b>\n
+ ·Mincha 6:50\n
+ ·Sunset 7:17\n
+ ·Candle Lighting <b>after<b> 8:02\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm631@sscm.org
+DTSTAMP:20170922
+DTSTART:20170922
+SUMMARY:ב׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Second Day of Rosh Hashana</b>\n
+ ·Sunrise 7:05\n
+ ·Latest Sh'ma 9:31 / 10:07\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:35\n
+ <b>·Shofar 11:00 (approx.)</b>\n
+ ·Plag HaMincha 6:00\n
+ ·Mincha 6:50\n
+ ·Candle Lighting 6:58*\n
+ ·Sunset 7:16\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm632@sscm.org
+DTSTAMP:20170923
+DTSTART:20170923
+SUMMARY:ג׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Ha'Azinu</b>\n
+ <b>Shabbos Shuva</b>\n
+ ·Sunrise 7:06\n
+ ·Latest Sh'ma 9:32 / 10:08\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ <b>·Mincha 4:55 / 6:35</b>\n
+ <b>·Drasha 5:25</b>\n
+ ·Sunset 7:14\n
+ ·Motzoai Shabbos 7:59\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm633@sscm.org
+DTSTAMP:20170924
+DTSTART:20170924
+SUMMARY:ד׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Tzom Gedalia</b>\n
+ ·Fast begins 5:41\n
+ <b>·Slichos 7:00 / 7:30 / 8:00</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Mincha 6:40 only</b>\n
+ ·Sunset 7:12\n
+ <b>·Maariv 7:45 only</b>\n
+ ·Fast ends 7:54**\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm634@sscm.org
+DTSTAMP:20170925
+DTSTART:20170925
+SUMMARY:ה׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm635@sscm.org
+DTSTAMP:20170926
+DTSTART:20170926
+SUMMARY:ו׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm636@sscm.org
+DTSTAMP:20170927
+DTSTART:20170927
+SUMMARY:ז׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm637@sscm.org
+DTSTAMP:20170928
+DTSTART:20170928
+SUMMARY:ח׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm638@sscm.org
+DTSTAMP:20170929
+DTSTART:20170929
+SUMMARY:ט׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Erev Yom Kippur</b>\n
+ <b>·Slichos 6:30 / 6:30 / 7:15</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Mincha 3:00 / 3:30</b>\n
+ ·Plag HaMincha 5:50\n
+ <b>·Kol Nidrei 6:45</b>\n
+ ·Candle Lighting 6:45\n
+ ·Sunset 7:03\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm639@sscm.org
+DTSTAMP:20170930
+DTSTART:20170930
+SUMMARY:י׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Yom Kippur</b>\n
+ ·Sunrise 7:14\n
+ ·Latest Sh'ma 9:34 / 10:10\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:40\n
+ <b>·Yizkor 11:30 (approx.)</b>\n
+ ·Mincha 4:45\n
+ ·Sunset 7:01\n
+ ·Motzoai Shabbos & Yom Kippur 7:46\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm640@sscm.org
+DTSTAMP:20171001
+DTSTART:20171001
+SUMMARY:י״א תשרי תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:40\n
+ ·Maariv 7:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm641@sscm.org
+DTSTAMP:20171002
+DTSTART:20171002
+SUMMARY:י״ב תשרי תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 6:40\n
+ ·Maariv 7:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm642@sscm.org
+DTSTAMP:20171003
+DTSTART:20171003
+SUMMARY:י״ג תשרי תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 6:40\n
+ ·Maariv 7:10 / 9:30\n
+ <b>Last ideal night for Kiddush Levana</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm643@sscm.org
+DTSTAMP:20171004
+DTSTART:20171004
+SUMMARY:י״ד תשרי תשע״ח
+DESCRIPTION:
+ <b>Erev Succos</b>\n
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ <b>·Eiruv Tavshilin</b>\n
+ ·Candle Lighting 6:36\n
+ ·Mincha 6:40\n
+ ·Sunset 6:54\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm644@sscm.org
+DTSTAMP:20171005
+DTSTART:20171005
+SUMMARY:ט״ו תשרי תשע״ח
+DESCRIPTION:
+ <b>First Day of Succos</b>\n
+ ·Sunrise 7:20\n
+ ·Latest Sh'ma 9:37 / 10:13\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Sisterhood Tea 4:45</b>\n
+ ·Mincha 6:35\n
+ ·Sunset 6:52\n
+ ·Candle Lighting <b>after<b> 7:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm645@sscm.org
+DTSTAMP:20171006
+DTSTART:20171006
+SUMMARY:ט״ז תשרי תשע״ח
+DESCRIPTION:
+ <b>Second Day of Succos</b>\n
+ ·Sunrise 7:21\n
+ ·Latest Sh'ma 9:37 / 10:13\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Plag HaMincha 5:39\n
+ ·Candle Lighting 6:32\n
+ ·Mincha 6:35\n
+ ·Sunset 6:50\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm646@sscm.org
+DTSTAMP:20171007
+DTSTART:20171007
+SUMMARY:י״ז תשרי תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ ·Sunrise 7:22\n
+ ·Latest Sh'ma 9:37 / 10:13\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Shiurim 5:15\n
+ ·Mincha 6:15\n
+ ·Sunset 6:48\n
+ ·Motzoai Shabbos 7:33\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm647@sscm.org
+DTSTAMP:20171008
+DTSTART:20171008
+SUMMARY:י״ח תשרי תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm648@sscm.org
+DTSTAMP:20171009
+DTSTART:20171009
+SUMMARY:י״ט תשרי תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm649@sscm.org
+DTSTAMP:20171010
+DTSTART:20171010
+SUMMARY:כ׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ ·Earliest Tefillin 6:29 / 6:36\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm650@sscm.org
+DTSTAMP:20171011
+DTSTART:20171011
+SUMMARY:כ״א תשרי תשע״ח
+DESCRIPTION:
+ <b>Hoshana Rabba</b>\n
+ ·Earliest Tefillin 6:30 / 6:37\n
+ ·Sunrise 7:27\n
+ <b>·Shacharis 6:15 / 6:50** / 7:30</b>\n
+ <b>**K'vasikin</b>\n
+ <b>·Eiruv Tavshilin</b>\n
+ ·Candle Lighting 6:23\n
+ ·Mincha 6:25\n
+ ·Sunset 6:41\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm651@sscm.org
+DTSTAMP:20171012
+DTSTART:20171012
+SUMMARY:כ״ב תשרי תשע״ח
+DESCRIPTION:
+ <b>Shemini Atzeres</b>\n
+ ·Sunrise 7:28\n
+ ·Latest Sh'ma 9:40 / 10:16\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Yizkor 9:30 / 10:30 (approx.)</b>\n
+ <b>·Mincha 6:10</b>\n
+ ·Sunset 6:40\n
+ ·Candle Lighting <b>after<b> 7:25\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm652@sscm.org
+DTSTAMP:20171013
+DTSTART:20171013
+SUMMARY:כ״ג תשרי תשע״ח
+DESCRIPTION:
+ <b>Simchas Torah</b>\n
+ ·Sunrise 7:29\n
+ ·Latest Sh'ma 9:40 / 10:16\n
+ <b>·Shacharis 6:50** / 8:00</b>\n
+ <b>**K'vasikin</b>\n
+ ·Plag HaMincha 5:29\n
+ ·Candle Lighting 6:20\n
+ ·Mincha 6:25\n
+ ·Sunset 6:38\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm653@sscm.org
+DTSTAMP:20171014
+DTSTART:20171014
+SUMMARY:כ״ד תשרי תשע״ח
+DESCRIPTION:
+ <b>Bereshis</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:30\n
+ ·Latest Sh'ma 9:40 / 10:16\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 5:05\n
+ ·Mincha 6:05\n
+ ·Sunset 6:36\n
+ ·Shiur 7:05\n
+ ·Motzoai Shabbos 7:21\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm654@sscm.org
+DTSTAMP:20171015
+DTSTART:20171015
+SUMMARY:כ״ה תשרי תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:15\n
+ ·Maariv 6:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm655@sscm.org
+DTSTAMP:20171016
+DTSTART:20171016
+SUMMARY:כ״ו תשרי תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:36 / 6:43\n
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 6:15\n
+ ·Maariv 6:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm656@sscm.org
+DTSTAMP:20171017
+DTSTART:20171017
+SUMMARY:כ״ז תשרי תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:37 / 6:44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:15\n
+ ·Maariv 6:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm657@sscm.org
+DTSTAMP:20171018
+DTSTART:20171018
+SUMMARY:כ״ח תשרי תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:38 / 6:45\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:15\n
+ ·Maariv 6:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm658@sscm.org
+DTSTAMP:20171019
+DTSTART:20171019
+SUMMARY:כ״ט תשרי תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:40 / 6:47\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:15\n
+ ·Maariv 6:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm659@sscm.org
+DTSTAMP:20171020
+DTSTART:20171020
+SUMMARY:ל׳ תשרי תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Cheshvan</b>\n
+ ·Earliest Tefillin 6:41 / 6:48\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Likras Shabbos for Boys 5:40\n
+ ·Plag HaMincha 5:20\n
+ ·Candle Lighting 6:09\n
+ ·Mincha 6:10\n
+ ·Sunset 6:27\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm660@sscm.org
+DTSTAMP:20171021
+DTSTART:20171021
+SUMMARY:א׳ מרחשון תשע״ח
+DESCRIPTION:
+ <b>Noach</b>\n
+ <b>Rosh Chodesh Cheshvan</b>\n
+ ·Sunrise 7:39\n
+ ·Latest Sh'ma 9:44 / 10:20\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Shiurim 4:55\n
+ ·Navi Shiur 5:10\n
+ ·Mincha 5:55\n
+ ·Sunset 6:25\n
+ ·Shiur 6:55\n
+ ·Motzoai Shabbos 7:10\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm661@sscm.org
+DTSTAMP:20171022
+DTSTART:20171022
+SUMMARY:ב׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm662@sscm.org
+DTSTAMP:20171023
+DTSTART:20171023
+SUMMARY:ג׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:45 / 6:52\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm663@sscm.org
+DTSTAMP:20171024
+DTSTART:20171024
+SUMMARY:ד׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:46 / 6:53\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+ <b>Yahrzeit of HaRav Yosef Weinreb zt"l</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm664@sscm.org
+DTSTAMP:20171025
+DTSTART:20171025
+SUMMARY:ה׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:47 / 6:54\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm665@sscm.org
+DTSTAMP:20171026
+DTSTART:20171026
+SUMMARY:ו׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:49 / 6:56\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm666@sscm.org
+DTSTAMP:20171027
+DTSTART:20171027
+SUMMARY:ז׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:50 / 6:57\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:30\n
+ ·Plag HaMincha 5:11\n
+ ·Candle Lighting 5:58\n
+ ·Mincha 6:00\n
+ ·Sunset 6:16\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm667@sscm.org
+DTSTAMP:20171028
+DTSTART:20171028
+SUMMARY:ח׳ מרחשון תשע״ח
+DESCRIPTION:
+ <b>Lech-Lecha</b>\n
+ ·Sunrise 7:48\n
+ ·Latest Sh'ma 9:48 / 10:24\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:40\n
+ ·Navi Shiur 4:55\n
+ ·Mincha 5:40\n
+ ·Sunset 6:14\n
+ ·Shiur 6:40\n
+ ·Motzoai Shabbos 6:59\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm668@sscm.org
+DTSTAMP:20171029
+DTSTART:20171029
+SUMMARY:ט׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm669@sscm.org
+DTSTAMP:20171030
+DTSTART:20171030
+SUMMARY:י׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm670@sscm.org
+DTSTAMP:20171031
+DTSTART:20171031
+SUMMARY:י״א מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm671@sscm.org
+DTSTAMP:20171101
+DTSTART:20171101
+SUMMARY:י״ב מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:56 / 7:03\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm672@sscm.org
+DTSTAMP:20171102
+DTSTART:20171102
+SUMMARY:י״ג מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:58 / 7:05\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+ <b>Last ideal night for Kiddush Levana</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm673@sscm.org
+DTSTAMP:20171103
+DTSTART:20171103
+SUMMARY:י״ד מרחשון תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:59 / 7:06\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:20\n
+ ·Plag HaMincha 5:03\n
+ ·Candle Lighting 5:48\n
+ ·Mincha 5:50\n
+ ·Sunset 6:06\n
+ <b>Last night for Kiddush Levana (until Shabbos 12:13 a.m.)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm674@sscm.org
+DTSTAMP:20171104
+DTSTART:20171104
+SUMMARY:ט״ו מרחשון תשע״ח
+DESCRIPTION:
+ <b>Vayera</b>\n
+ ·Sunrise 7:57\n
+ ·Latest Sh'ma 9:53 / 10:29\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:35\n
+ ·Navi Shiur 4:50\n
+ ·Mincha 5:35\n
+ ·Sunset 6:05\n
+ ·Shiur 6:35\n
+ ·Motzoai Shabbos 6:50\n
+ <b>Change clocks back one hour at 2:00 a.m. EDT</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm675@sscm.org
+DTSTAMP:20171105
+DTSTART:20171105
+SUMMARY:ט״ז מרחשון תשע״ח
+DESCRIPTION:
+ <b>Standard Time</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ <b>·Mincha 1:00 / 4:45</b>\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm676@sscm.org
+DTSTAMP:20171106
+DTSTART:20171106
+SUMMARY:י״ז מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm677@sscm.org
+DTSTAMP:20171107
+DTSTART:20171107
+SUMMARY:י״ח מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm678@sscm.org
+DTSTAMP:20171108
+DTSTART:20171108
+SUMMARY:י״ט מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm679@sscm.org
+DTSTAMP:20171109
+DTSTART:20171109
+SUMMARY:כ׳ מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm680@sscm.org
+DTSTAMP:20171110
+DTSTART:20171110
+SUMMARY:כ״א מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:10\n
+ ·Plag HaMincha 3:57\n
+ <b>·Candle Lighting 4:40</b>\n
+ ·Mincha 4:40\n
+ ·Sunset 4:58\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm681@sscm.org
+DTSTAMP:20171111
+DTSTART:20171111
+SUMMARY:כ״ב מרחשון תשע״ח
+DESCRIPTION:
+ <b>Chayei Sara</b>\n
+ ·Sunrise 7:06\n
+ <b>·Latest Sh'ma 8:57 / 9:33</b>\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:25\n
+ ·Sunset 4:57\n
+ ·Shiur 5:25\n
+ ·Motzoai Shabbos 5:42\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm682@sscm.org
+DTSTAMP:20171112
+DTSTART:20171112
+SUMMARY:כ״ג מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm683@sscm.org
+DTSTAMP:20171113
+DTSTART:20171113
+SUMMARY:כ״ד מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm684@sscm.org
+DTSTAMP:20171114
+DTSTART:20171114
+SUMMARY:כ״ה מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm685@sscm.org
+DTSTAMP:20171115
+DTSTART:20171115
+SUMMARY:כ״ו מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm686@sscm.org
+DTSTAMP:20171116
+DTSTART:20171116
+SUMMARY:כ״ז מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm687@sscm.org
+DTSTAMP:20171117
+DTSTART:20171117
+SUMMARY:כ״ח מרחשון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:05\n
+ ·Plag HaMincha 3:51\n
+ ·Candle Lighting 4:33\n
+ ·Mincha 4:35\n
+ ·Sunset 4:51\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm688@sscm.org
+DTSTAMP:20171118
+DTSTART:20171118
+SUMMARY:כ״ט מרחשון תשע״ח
+DESCRIPTION:
+ <b>Toldos</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:16\n
+ ·Latest Sh'ma 9:03 / 9:39\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:20\n
+ ·Sunset 4:50\n
+ ·Shiur 5:20\n
+ ·Motzoai Shabbos 5:35\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm689@sscm.org
+DTSTAMP:20171119
+DTSTART:20171119
+SUMMARY:א׳ כסלו תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Kislev</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm690@sscm.org
+DTSTAMP:20171120
+DTSTART:20171120
+SUMMARY:ב׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm691@sscm.org
+DTSTAMP:20171121
+DTSTART:20171121
+SUMMARY:ג׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm692@sscm.org
+DTSTAMP:20171122
+DTSTART:20171122
+SUMMARY:ד׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm693@sscm.org
+DTSTAMP:20171123
+DTSTART:20171123
+SUMMARY:ה׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm694@sscm.org
+DTSTAMP:20171124
+DTSTART:20171124
+SUMMARY:ו׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:00\n
+ ·Plag HaMincha 3:47\n
+ ·Candle Lighting 4:27\n
+ ·Mincha 4:30\n
+ ·Sunset 4:45\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm695@sscm.org
+DTSTAMP:20171125
+DTSTART:20171125
+SUMMARY:ז׳ כסלו תשע״ח
+DESCRIPTION:
+ <b>Vayetzei</b>\n
+ ·Sunrise 7:24\n
+ ·Latest Sh'ma 9:08 / 9:44\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:15\n
+ ·Sunset 4:45\n
+ ·Shiur 5:15\n
+ ·Motzoai Shabbos 5:30\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm696@sscm.org
+DTSTAMP:20171126
+DTSTART:20171126
+SUMMARY:ח׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm697@sscm.org
+DTSTAMP:20171127
+DTSTART:20171127
+SUMMARY:ט׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm698@sscm.org
+DTSTAMP:20171128
+DTSTART:20171128
+SUMMARY:י׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm699@sscm.org
+DTSTAMP:20171129
+DTSTART:20171129
+SUMMARY:י״א כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm700@sscm.org
+DTSTAMP:20171130
+DTSTART:20171130
+SUMMARY:י״ב כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm701@sscm.org
+DTSTAMP:20171201
+DTSTART:20171201
+SUMMARY:י״ג כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:34 / 6:41\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 3:55\n
+ ·Plag HaMincha 3:45\n
+ ·Candle Lighting 4:24\n
+ ·Mincha 4:25\n
+ ·Sunset 4:42\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm702@sscm.org
+DTSTAMP:20171202
+DTSTART:20171202
+SUMMARY:י״ד כסלו תשע״ח
+DESCRIPTION:
+ <b>Vayishlach</b>\n
+ ·Sunrise 7:32\n
+ ·Latest Sh'ma 9:13 / 9:49\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:10\n
+ ·Sunset 4:42\n
+ ·Shiur 5:10\n
+ ·Motzoai Shabbos 5:27\n
+ ·Avos UBanim 7:00-8:00\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm703@sscm.org
+DTSTAMP:20171203
+DTSTART:20171203
+SUMMARY:ט״ו כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm704@sscm.org
+DTSTAMP:20171204
+DTSTART:20171204
+SUMMARY:ט״ז כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:37 / 6:44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+ <b>V'Sein Tal UMatar at Maariv</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm705@sscm.org
+DTSTAMP:20171205
+DTSTART:20171205
+SUMMARY:י״ז כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:39 / 6:46\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm706@sscm.org
+DTSTAMP:20171206
+DTSTART:20171206
+SUMMARY:י״ח כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:40 / 6:47\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm707@sscm.org
+DTSTAMP:20171207
+DTSTART:20171207
+SUMMARY:י״ט כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:41 / 6:48\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm708@sscm.org
+DTSTAMP:20171208
+DTSTART:20171208
+SUMMARY:כ׳ כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:41 / 6:48\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 3:55\n
+ ·Plag HaMincha 3:45\n
+ ·Candle Lighting 4:23\n
+ ·Mincha 4:25\n
+ ·Sunset 4:41\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm709@sscm.org
+DTSTAMP:20171209
+DTSTART:20171209
+SUMMARY:כ״א כסלו תשע״ח
+DESCRIPTION:
+ <b>Vayeshev</b>\n
+ ·Sunrise 7:39\n
+ ·Latest Sh'ma 9:18 / 9:54\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:10\n
+ ·Sunset 4:41\n
+ ·Shiur 5:10\n
+ ·Motzoai Shabbos 5:26\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm710@sscm.org
+DTSTAMP:20171210
+DTSTART:20171210
+SUMMARY:כ״ב כסלו תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm711@sscm.org
+DTSTAMP:20171211
+DTSTART:20171211
+SUMMARY:כ״ג כסלו תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:44 / 6:51\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm712@sscm.org
+DTSTAMP:20171212
+DTSTART:20171212
+SUMMARY:כ״ד כסלו תשע״ח
+DESCRIPTION:
+ <b>Erev Chanuka</b>\n
+ ·Earliest Tefillin 6:45 / 6:52\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm713@sscm.org
+DTSTAMP:20171213
+DTSTART:20171213
+SUMMARY:כ״ה כסלו תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ ·Earliest Tefillin 6:46 / 6:53\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm714@sscm.org
+DTSTAMP:20171214
+DTSTART:20171214
+SUMMARY:כ״ו כסלו תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ ·Earliest Tefillin 6:47 / 6:54\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm715@sscm.org
+DTSTAMP:20171215
+DTSTART:20171215
+SUMMARY:כ״ז כסלו תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ ·Earliest Tefillin 6:47 / 6:54\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Plag HaMincha 3:46\n
+ ·Candle Lighting 4:23\n
+ ·Mincha 4:25\n
+ ·Sunset 4:41\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm716@sscm.org
+DTSTAMP:20171216
+DTSTART:20171216
+SUMMARY:כ״ח כסלו תשע״ח
+DESCRIPTION:
+ <b>Miketz - Chanuka</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:45\n
+ ·Latest Sh'ma 9:23 / 9:59\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:10\n
+ ·Sunset 4:42\n
+ ·Shiur 5:10\n
+ ·Motzoai Shabbos 5:27\n
+ ·Avos UBanim 7:00-8:00\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm717@sscm.org
+DTSTAMP:20171217
+DTSTART:20171217
+SUMMARY:כ״ט כסלו תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm718@sscm.org
+DTSTAMP:20171218
+DTSTART:20171218
+SUMMARY:ל׳ כסלו תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ <b>Rosh Chodesh Teves</b>\n
+ ·Earliest Tefillin 6:49 / 6:56\n
+ ·Shacharis <b>6:40 / 6:45<b> / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm719@sscm.org
+DTSTAMP:20171219
+DTSTART:20171219
+SUMMARY:א׳ טבת תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ <b>Rosh Chodesh Teves</b>\n
+ ·Earliest Tefillin 6:50 / 6:57\n
+ ·Shacharis <b>6:40 / 6:45<b> / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm720@sscm.org
+DTSTAMP:20171220
+DTSTART:20171220
+SUMMARY:ב׳ טבת תשע״ח
+DESCRIPTION:
+ <b>Chanuka</b>\n
+ ·Earliest Tefillin 6:51 / 6:58\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm721@sscm.org
+DTSTAMP:20171221
+DTSTART:20171221
+SUMMARY:ג׳ טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:51 / 6:58\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:30\n
+ ·Maariv 5:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm722@sscm.org
+DTSTAMP:20171222
+DTSTART:20171222
+SUMMARY:ד׳ טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:52 / 6:59\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:00\n
+ ·Plag HaMincha 3:49\n
+ ·Candle Lighting 4:26\n
+ ·Mincha 4:30\n
+ ·Sunset 4:44\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm723@sscm.org
+DTSTAMP:20171223
+DTSTART:20171223
+SUMMARY:ה׳ טבת תשע״ח
+DESCRIPTION:
+ <b>Vayigash</b>\n
+ ·Sunrise 7:49\n
+ ·Latest Sh'ma 9:27 / 10:03\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:15\n
+ ·Sunset 4:45\n
+ ·Shiur 5:15\n
+ ·Motzoai Shabbos 5:30\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm724@sscm.org
+DTSTAMP:20171224
+DTSTART:20171224
+SUMMARY:ו׳ טבת תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm725@sscm.org
+DTSTAMP:20171225
+DTSTART:20171225
+SUMMARY:ז׳ טבת תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 1:00 / 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm726@sscm.org
+DTSTAMP:20171226
+DTSTART:20171226
+SUMMARY:ח׳ טבת תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 1:00 / 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm727@sscm.org
+DTSTAMP:20171227
+DTSTART:20171227
+SUMMARY:ט׳ טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:35\n
+ ·Maariv 5:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm728@sscm.org
+DTSTAMP:20171228
+DTSTART:20171228
+SUMMARY:י׳ טבת תשע״ח
+DESCRIPTION:
+ <b>Asarah B'Teves</b>\n
+ ·Fast begins 6:18\n
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis <b>6:45<b> / 6:50 / 7:30\n
+ <b>·Mincha 4:15 only</b>\n
+ ·Sunset 4:48\n
+ ·Maariv 5:20 / 9:30\n
+ ·Fast ends 5:30**\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm729@sscm.org
+DTSTAMP:20171229
+DTSTART:20171229
+SUMMARY:י״א טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:05\n
+ ·Plag HaMincha 3:53\n
+ ·Candle Lighting 4:31\n
+ ·Mincha 4:35\n
+ ·Sunset 4:49\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm730@sscm.org
+DTSTAMP:20171230
+DTSTART:20171230
+SUMMARY:י״ב טבת תשע״ח
+DESCRIPTION:
+ <b>Vayechi</b>\n
+ ·Sunrise 7:51\n
+ ·Latest Sh'ma 9:29 / 10:05\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ ·Mincha 4:15\n
+ ·Sunset 4:49\n
+ ·Shiur 5:15\n
+ ·Motzoai Shabbos 5:34\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm731@sscm.org
+DTSTAMP:20171231
+DTSTART:20171231
+SUMMARY:י״ג טבת תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm732@sscm.org
+DTSTAMP:20180101
+DTSTART:20180101
+SUMMARY:י״ד טבת תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 1:00 / 4:40\n
+ ·Maariv 5:10 / 9:30\n
+ <b>Last night for Kiddush Levana (until Tue 12:42 a.m.)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm733@sscm.org
+DTSTAMP:20180102
+DTSTART:20180102
+SUMMARY:ט״ו טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm734@sscm.org
+DTSTAMP:20180103
+DTSTART:20180103
+SUMMARY:ט״ז טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm735@sscm.org
+DTSTAMP:20180104
+DTSTART:20180104
+SUMMARY:י״ז טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:40\n
+ ·Maariv 5:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm736@sscm.org
+DTSTAMP:20180105
+DTSTART:20180105
+SUMMARY:י״ח טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:10\n
+ ·Plag HaMincha 3:59\n
+ ·Candle Lighting 4:37\n
+ ·Mincha 4:40\n
+ ·Sunset 4:55\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm737@sscm.org
+DTSTAMP:20180106
+DTSTART:20180106
+SUMMARY:י״ט טבת תשע״ח
+DESCRIPTION:
+ <b>Shemos</b>\n
+ ·Sunrise 7:52\n
+ ·Latest Sh'ma 9:32 / 10:08\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:40\n
+ <b>·Mincha 4:15</b>\n
+ ·Sunset 4:56\n
+ ·Motzoai Shabbos 5:41\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm738@sscm.org
+DTSTAMP:20180107
+DTSTART:20180107
+SUMMARY:כ׳ טבת תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm739@sscm.org
+DTSTAMP:20180108
+DTSTART:20180108
+SUMMARY:כ״א טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm740@sscm.org
+DTSTAMP:20180109
+DTSTART:20180109
+SUMMARY:כ״ב טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm741@sscm.org
+DTSTAMP:20180110
+DTSTART:20180110
+SUMMARY:כ״ג טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm742@sscm.org
+DTSTAMP:20180111
+DTSTART:20180111
+SUMMARY:כ״ד טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:53 / 7:00\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:45\n
+ ·Maariv 5:15 / 9:30\n
+ <b>Yahrzeit of HaRav Gedalia Felder zt"l</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm743@sscm.org
+DTSTAMP:20180112
+DTSTART:20180112
+SUMMARY:כ״ה טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:53 / 7:00\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:15\n
+ ·Plag HaMincha 4:06\n
+ ·Candle Lighting 4:45\n
+ ·Mincha 4:45\n
+ ·Sunset 5:03\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm744@sscm.org
+DTSTAMP:20180113
+DTSTART:20180113
+SUMMARY:כ״ו טבת תשע״ח
+DESCRIPTION:
+ <b>Vaera</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:50\n
+ ·Latest Sh'ma 9:32 / 10:08\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:45\n
+ ·Mincha 4:30\n
+ ·Sunset 5:04\n
+ ·Shiur 5:30\n
+ ·Motzoai Shabbos 5:49\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm745@sscm.org
+DTSTAMP:20180114
+DTSTART:20180114
+SUMMARY:כ״ז טבת תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 4:55\n
+ ·Maariv 5:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm746@sscm.org
+DTSTAMP:20180115
+DTSTART:20180115
+SUMMARY:כ״ח טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:52 / 6:59\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:55\n
+ ·Maariv 5:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm747@sscm.org
+DTSTAMP:20180116
+DTSTART:20180116
+SUMMARY:כ״ט טבת תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:51 / 6:58\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:55\n
+ ·Maariv 5:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm748@sscm.org
+DTSTAMP:20180117
+DTSTART:20180117
+SUMMARY:א׳ שבט תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Sh'vat</b>\n
+ ·Earliest Tefillin 6:51 / 6:58\n
+ ·Shacharis <b>6:40 / 6:45<b> / 7:30\n
+ ·Mincha 4:55\n
+ ·Maariv 5:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm749@sscm.org
+DTSTAMP:20180118
+DTSTART:20180118
+SUMMARY:ב׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:50 / 6:57\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 4:55\n
+ ·Maariv 5:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm750@sscm.org
+DTSTAMP:20180119
+DTSTART:20180119
+SUMMARY:ג׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:49 / 6:56\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:25\n
+ ·Plag HaMincha 4:13\n
+ ·Candle Lighting 4:53\n
+ ·Mincha 4:55\n
+ ·Sunset 5:11\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm751@sscm.org
+DTSTAMP:20180120
+DTSTART:20180120
+SUMMARY:ד׳ שבט תשע״ח
+DESCRIPTION:
+ <b>Bo</b>\n
+ ·Sunrise 7:46\n
+ ·Latest Sh'ma 9:31 / 10:07\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:40\n
+ ·Navi Shiur 3:55\n
+ ·Mincha 4:40\n
+ ·Sunset 5:13\n
+ ·Shiur 5:40\n
+ ·Motzoai Shabbos 5:58\n
+ ·Avos UBanim 7:00-8:00\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm752@sscm.org
+DTSTAMP:20180121
+DTSTART:20180121
+SUMMARY:ה׳ שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:00\n
+ ·Maariv 5:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm753@sscm.org
+DTSTAMP:20180122
+DTSTART:20180122
+SUMMARY:ו׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:47 / 6:54\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:00\n
+ ·Maariv 5:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm754@sscm.org
+DTSTAMP:20180123
+DTSTART:20180123
+SUMMARY:ז׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:46 / 6:53\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:00\n
+ ·Maariv 5:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm755@sscm.org
+DTSTAMP:20180124
+DTSTART:20180124
+SUMMARY:ח׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:46 / 6:53\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:00\n
+ ·Maariv 5:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm756@sscm.org
+DTSTAMP:20180125
+DTSTART:20180125
+SUMMARY:ט׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:45 / 6:52\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:00\n
+ ·Maariv 5:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm757@sscm.org
+DTSTAMP:20180126
+DTSTART:20180126
+SUMMARY:י׳ שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:44 / 6:51\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:35\n
+ ·Plag HaMincha 4:20\n
+ ·Candle Lighting 5:02\n
+ ·Mincha 5:05\n
+ ·Sunset 5:20\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm758@sscm.org
+DTSTAMP:20180127
+DTSTART:20180127
+SUMMARY:י״א שבט תשע״ח
+DESCRIPTION:
+ <b>Beshalach - Shira</b>\n
+ ·Sunrise 7:40\n
+ ·Latest Sh'ma 9:29 / 10:05\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 3:50\n
+ ·Navi Shiur 4:05\n
+ ·Mincha 4:50\n
+ ·Sunset 5:22\n
+ ·Shiur 5:50\n
+ ·Motzoai Shabbos 6:07\n
+ ·Avos UBanim 7:15-8:15\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm759@sscm.org
+DTSTAMP:20180128
+DTSTART:20180128
+SUMMARY:י״ב שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:10\n
+ ·Maariv 5:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm760@sscm.org
+DTSTAMP:20180129
+DTSTART:20180129
+SUMMARY:י״ג שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:41 / 6:48\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:10\n
+ ·Maariv 5:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm761@sscm.org
+DTSTAMP:20180130
+DTSTART:20180130
+SUMMARY:י״ד שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:40 / 6:47\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:10\n
+ ·Maariv 5:40 / 9:30\n
+ <b>Last night for Kiddush Levana (only until lunar eclipse)</b>\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm762@sscm.org
+DTSTAMP:20180131
+DTSTART:20180131
+SUMMARY:ט״ו שבט תשע״ח
+DESCRIPTION:
+ <b>Tu BiShvat</b>\n
+ ·Earliest Tefillin 6:39 / 6:46\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:10\n
+ ·Maariv 5:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm763@sscm.org
+DTSTAMP:20180201
+DTSTART:20180201
+SUMMARY:ט״ז שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:38 / 6:45\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:10\n
+ ·Maariv 5:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm764@sscm.org
+DTSTAMP:20180202
+DTSTART:20180202
+SUMMARY:י״ז שבט תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:37 / 6:44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:45\n
+ ·Plag HaMincha 4:28\n
+ ·Candle Lighting 5:12\n
+ ·Mincha 5:15\n
+ ·Sunset 5:30\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm765@sscm.org
+DTSTAMP:20180203
+DTSTART:20180203
+SUMMARY:י״ח שבט תשע״ח
+DESCRIPTION:
+ <b>Yisro</b>\n
+ ·Sunrise 7:33\n
+ ·Latest Sh'ma 9:26 / 10:02\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:00\n
+ ·Navi Shiur 4:15\n
+ ·Mincha 5:00\n
+ ·Sunset 5:31\n
+ ·Shiur 6:00\n
+ ·Motzoai Shabbos 6:16\n
+ ·Avos UBanim 7:30-8:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm766@sscm.org
+DTSTAMP:20180204
+DTSTART:20180204
+SUMMARY:י״ט שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:20\n
+ ·Maariv 5:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm767@sscm.org
+DTSTAMP:20180205
+DTSTART:20180205
+SUMMARY:כ׳ שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:20\n
+ ·Maariv 5:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm768@sscm.org
+DTSTAMP:20180206
+DTSTART:20180206
+SUMMARY:כ״א שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:20\n
+ ·Maariv 5:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm769@sscm.org
+DTSTAMP:20180207
+DTSTART:20180207
+SUMMARY:כ״ב שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:20\n
+ ·Maariv 5:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm770@sscm.org
+DTSTAMP:20180208
+DTSTART:20180208
+SUMMARY:כ״ג שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:20\n
+ ·Maariv 5:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm771@sscm.org
+DTSTAMP:20180209
+DTSTART:20180209
+SUMMARY:כ״ד שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 4:55\n
+ ·Plag HaMincha 4:36\n
+ ·Candle Lighting 5:22\n
+ ·Mincha 5:25\n
+ ·Sunset 5:40\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm772@sscm.org
+DTSTAMP:20180210
+DTSTART:20180210
+SUMMARY:כ״ה שבט תשע״ח
+DESCRIPTION:
+ <b>Mishpatim - Shekalim</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:24\n
+ ·Latest Sh'ma 9:22 / 9:58\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:10\n
+ ·Navi Shiur 4:25\n
+ ·Mincha 5:10\n
+ ·Sunset 5:41\n
+ ·Shiur 6:10\n
+ ·Motzoai Shabbos 6:26\n
+ ·Avos UBanim 7:30-8:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm773@sscm.org
+DTSTAMP:20180211
+DTSTART:20180211
+SUMMARY:כ״ו שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:30\n
+ ·Maariv 6:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm774@sscm.org
+DTSTAMP:20180212
+DTSTART:20180212
+SUMMARY:כ״ז שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:30\n
+ ·Maariv 6:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm775@sscm.org
+DTSTAMP:20180213
+DTSTART:20180213
+SUMMARY:כ״ח שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:30\n
+ ·Maariv 6:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm776@sscm.org
+DTSTAMP:20180214
+DTSTART:20180214
+SUMMARY:כ״ט שבט תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:30\n
+ ·Maariv 6:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm777@sscm.org
+DTSTAMP:20180215
+DTSTART:20180215
+SUMMARY:ל׳ שבט תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Adar</b>\n
+ ·Earliest Tefillin 6:20 / 6:27\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 5:30\n
+ ·Maariv 6:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm778@sscm.org
+DTSTAMP:20180216
+DTSTART:20180216
+SUMMARY:א׳ אדר תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Adar</b>\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Likras Shabbos for Boys 5:05\n
+ ·Plag HaMincha 4:43\n
+ ·Candle Lighting 5:31\n
+ ·Mincha 5:35\n
+ ·Sunset 5:49\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm779@sscm.org
+DTSTAMP:20180217
+DTSTART:20180217
+SUMMARY:ב׳ אדר תשע״ח
+DESCRIPTION:
+ <b>Terumah</b>\n
+ ·Sunrise 7:14\n
+ ·Latest Sh'ma 9:17 / 9:53\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:20\n
+ ·Navi Shiur 4:35\n
+ ·Mincha 5:20\n
+ ·Sunset 5:50\n
+ ·Shiur 6:20\n
+ ·Motzoai Shabbos 6:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm780@sscm.org
+DTSTAMP:20180218
+DTSTART:20180218
+SUMMARY:ג׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:40\n
+ ·Maariv 6:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm781@sscm.org
+DTSTAMP:20180219
+DTSTART:20180219
+SUMMARY:ד׳ אדר תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 1:00 / 5:40\n
+ ·Maariv 6:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm782@sscm.org
+DTSTAMP:20180220
+DTSTART:20180220
+SUMMARY:ה׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:40\n
+ ·Maariv 6:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm783@sscm.org
+DTSTAMP:20180221
+DTSTART:20180221
+SUMMARY:ו׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:40\n
+ ·Maariv 6:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm784@sscm.org
+DTSTAMP:20180222
+DTSTART:20180222
+SUMMARY:ז׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:40\n
+ ·Maariv 6:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm785@sscm.org
+DTSTAMP:20180223
+DTSTART:20180223
+SUMMARY:ח׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:10\n
+ ·Plag HaMincha 4:50\n
+ ·Candle Lighting 5:40\n
+ ·Mincha 5:40\n
+ ·Sunset 5:58\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm786@sscm.org
+DTSTAMP:20180224
+DTSTART:20180224
+SUMMARY:ט׳ אדר תשע״ח
+DESCRIPTION:
+ <b>Tetzaveh - Zachor</b>\n
+ ·Sunrise 7:03\n
+ ·Latest Sh'ma 9:11 / 9:47\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ <b>·Zachor (approx.) 9:30 / 10:25 / 10:40 / 11:35</b>\n
+ ·Shiurim 4:30\n
+ ·Navi Shiur 4:45\n
+ ·Mincha 5:30\n
+ ·Sunset 6:00\n
+ ·Shiur 6:30\n
+ ·Motzoai Shabbos 6:45\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm787@sscm.org
+DTSTAMP:20180225
+DTSTART:20180225
+SUMMARY:י׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 5:50\n
+ ·Maariv 6:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm788@sscm.org
+DTSTAMP:20180226
+DTSTART:20180226
+SUMMARY:י״א אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:50\n
+ ·Maariv 6:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm789@sscm.org
+DTSTAMP:20180227
+DTSTART:20180227
+SUMMARY:י״ב אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:50\n
+ ·Maariv 6:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm790@sscm.org
+DTSTAMP:20180228
+DTSTART:20180228
+SUMMARY:י״ג אדר תשע״ח
+DESCRIPTION:
+ <b>Taanis Esther</b>\n
+ <b>Erev Purim</b>\n
+ ·Fast begins 5:32\n
+ ·Shacharis <b>6:30<b> / 6:50 / 7:30\n
+ <b>·Mincha 5:35 only</b>\n
+ ·Sunset 6:05\n
+ ·Maariv 6:40 only\n
+ ·Fast ends 6:47**\n
+ <b>·Megillas Esther 6:55 / 8:25</b>\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm791@sscm.org
+DTSTAMP:20180301
+DTSTART:20180301
+SUMMARY:י״ד אדר תשע״ח
+DESCRIPTION:
+ <b>Purim</b>\n
+ ·Sunrise 6:55\n
+ <b>·Shacharis 6:30** / 7:30 / 8:30</b>\n
+ <b>**K'vasikin</b>\n
+ <b>·Megillas Esther  7:10 / 8:10 / 9:10</b>\n
+ ·Yeshivas Mordechai HaTzaddik 10:00-11:00\n
+ <b>·Mincha 4:00 / 5:00</b>\n
+ ·Sunset 6:06\n
+ <b>·Maariv 8:45 / 9:30</b>\n
+ <b>Last night for Kiddush Levana (until Fri 2:10 a.m.)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm792@sscm.org
+DTSTAMP:20180302
+DTSTART:20180302
+SUMMARY:ט״ו אדר תשע״ח
+DESCRIPTION:
+ <b>Shushan Purim</b>\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:20\n
+ ·Plag HaMincha 4:57\n
+ ·Candle Lighting 5:49\n
+ ·Mincha 5:50\n
+ ·Sunset 6:07\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm793@sscm.org
+DTSTAMP:20180303
+DTSTART:20180303
+SUMMARY:ט״ז אדר תשע״ח
+DESCRIPTION:
+ <b>Ki Sisa</b>\n
+ ·Sunrise 6:52\n
+ ·Latest Sh'ma 9:05 / 9:41\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:35\n
+ ·Navi Shiur 4:50\n
+ ·Mincha 5:35\n
+ ·Sunset 6:09\n
+ ·Shiur 6:35\n
+ ·Motzoai Shabbos 6:54\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm794@sscm.org
+DTSTAMP:20180304
+DTSTART:20180304
+SUMMARY:י״ז אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 1:00 / 6:00\n
+ ·Maariv 6:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm795@sscm.org
+DTSTAMP:20180305
+DTSTART:20180305
+SUMMARY:י״ח אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00\n
+ ·Maariv 6:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm796@sscm.org
+DTSTAMP:20180306
+DTSTART:20180306
+SUMMARY:י״ט אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00\n
+ ·Maariv 6:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm797@sscm.org
+DTSTAMP:20180307
+DTSTART:20180307
+SUMMARY:כ׳ אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00\n
+ ·Maariv 6:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm798@sscm.org
+DTSTAMP:20180308
+DTSTART:20180308
+SUMMARY:כ״א אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00\n
+ ·Maariv 6:30 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm799@sscm.org
+DTSTAMP:20180309
+DTSTART:20180309
+SUMMARY:כ״ב אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:30\n
+ ·Plag HaMincha 5:04\n
+ ·Candle Lighting 5:58\n
+ ·Mincha 6:00\n
+ ·Sunset 6:16\n
+ ·Learning Program for Boys 8:30-9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm800@sscm.org
+DTSTAMP:20180310
+DTSTART:20180310
+SUMMARY:כ״ג אדר תשע״ח
+DESCRIPTION:
+ <b>Vayakhel-Pekudei - Parah</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 6:39\n
+ ·Latest Sh'ma 8:57 / 9:33\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:45\n
+ ·Navi Shiur 5:00\n
+ ·Mincha 5:45\n
+ ·Sunset 6:18\n
+ ·Shiur 6:45\n
+ ·Motzoai Shabbos 7:03\n
+ <b>Change clocks forward one hour at 2:00 a.m.</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm801@sscm.org
+DTSTAMP:20180311
+DTSTART:20180311
+SUMMARY:כ״ד אדר תשע״ח
+DESCRIPTION:
+ <b>Daylight-Saving Time</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm802@sscm.org
+DTSTAMP:20180312
+DTSTART:20180312
+SUMMARY:כ״ה אדר תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:39 / 6:46\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm803@sscm.org
+DTSTAMP:20180313
+DTSTART:20180313
+SUMMARY:כ״ו אדר תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:37 / 6:44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm804@sscm.org
+DTSTAMP:20180314
+DTSTART:20180314
+SUMMARY:כ״ז אדר תשע״ח
+DESCRIPTION:
+ ·Earliest Tefillin 6:35 / 6:42\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm805@sscm.org
+DTSTAMP:20180315
+DTSTART:20180315
+SUMMARY:כ״ח אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm806@sscm.org
+DTSTAMP:20180316
+DTSTART:20180316
+SUMMARY:כ״ט אדר תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:25\n
+ ·Mincha 5:55 / 7:10\n
+ ·Plag HaMincha 6:11\n
+ ·Candle Lighting 7:07*\n
+ ·Sunset 7:25\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm807@sscm.org
+DTSTAMP:20180317
+DTSTART:20180317
+SUMMARY:א׳ ניסן תשע״ח
+DESCRIPTION:
+ <b>Vayikra - HaChodesh</b>\n
+ <b>Rosh Chodesh Nisan</b>\n
+ ·Sunrise 7:27\n
+ ·Latest Sh'ma 9:50 / 10:26\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Shiurim 5:55\n
+ ·Mincha 6:00 / 6:55\n
+ ·Navi Shiur 6:10\n
+ ·Sunset 7:26\n
+ ·Shiur 7:55\n
+ ·Motzoai Shabbos 8:11\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm808@sscm.org
+DTSTAMP:20180318
+DTSTART:20180318
+SUMMARY:ב׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Maariv 7:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm809@sscm.org
+DTSTAMP:20180319
+DTSTART:20180319
+SUMMARY:ג׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Maariv 7:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm810@sscm.org
+DTSTAMP:20180320
+DTSTART:20180320
+SUMMARY:ד׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Maariv 7:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm811@sscm.org
+DTSTAMP:20180321
+DTSTART:20180321
+SUMMARY:ה׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Maariv 7:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm812@sscm.org
+DTSTAMP:20180322
+DTSTART:20180322
+SUMMARY:ו׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Maariv 7:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm813@sscm.org
+DTSTAMP:20180323
+DTSTART:20180323
+SUMMARY:ז׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:30\n
+ ·Mincha 6:00 / 7:15\n
+ ·Plag HaMincha 6:18\n
+ ·Candle Lighting 7:16*\n
+ ·Sunset 7:34\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm814@sscm.org
+DTSTAMP:20180324
+DTSTART:20180324
+SUMMARY:ח׳ ניסן תשע״ח
+DESCRIPTION:
+ <b>Tzav</b>\n
+ <b>Shabbos Hagodol</b>\n
+ ·Sunrise 7:14\n
+ ·Latest Sh'ma 9:43 / 10:19\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ <b>·Mincha 5:20 / 7:00</b>\n
+ <b>·Drasha 5:50</b>\n
+ ·Sunset 7:35\n
+ ·Motzoai Shabbos 8:20\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm815@sscm.org
+DTSTAMP:20180325
+DTSTART:20180325
+SUMMARY:ט׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:25\n
+ ·Maariv 7:55 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm816@sscm.org
+DTSTAMP:20180326
+DTSTART:20180326
+SUMMARY:י׳ ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:25\n
+ ·Maariv 7:55 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm817@sscm.org
+DTSTAMP:20180327
+DTSTART:20180327
+SUMMARY:י״א ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 7:25\n
+ ·Maariv 7:55 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm818@sscm.org
+DTSTAMP:20180328
+DTSTART:20180328
+SUMMARY:י״ב ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 7:25\n
+ ·Maariv 7:55 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm819@sscm.org
+DTSTAMP:20180329
+DTSTART:20180329
+SUMMARY:י״ג ניסן תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 7:25\n
+ ·Sunset 7:41\n
+ ·Maariv 7:55 / 9:30\n
+ <b>Bedikas Chometz</b>\n
+ <b>Last ideal night for Kiddush Levana</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm820@sscm.org
+DTSTAMP:20180330
+DTSTART:20180330
+SUMMARY:י״ד ניסן תשע״ח
+DESCRIPTION:
+ <b>Erev Pesach</b>\n
+ <b>·Shacharis 6:45 / 7:30 / 8:30</b>\n
+ <b>·Siyum & Breakfast after each minyan</b>\n
+ <b>·May Eat Chometz Until 10:52</b>\n
+ <b>·Burn Chometz Before 12:07</b>\n
+ ·Chatzos 1:22\n
+ ·Plag HaMincha 6:23\n
+ ·Candle Lighting 7:24\n
+ ·Mincha 7:25\n
+ ·Sunset 7:42\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm821@sscm.org
+DTSTAMP:20180331
+DTSTART:20180331
+SUMMARY:ט״ו ניסן תשע״ח
+DESCRIPTION:
+ <b>First Day of Pesach</b>\n
+ ·Sunrise 7:02\n
+ ·Latest Sh'ma 9:36 / 10:12\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis <b>9:15 only<b>\n
+ ·Mincha 2:30 / 7:15\n
+ ·Shiurim 6:15\n
+ ·Sunset 7:43\n
+ ·Candle Lighting <b>after<b> 8:28\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm822@sscm.org
+DTSTAMP:20180401
+DTSTART:20180401
+SUMMARY:ט״ז ניסן תשע״ח
+DESCRIPTION:
+ <b>Second Day of Pesach</b>\n
+ Omer 1\n
+ ·Sunrise 7:00\n
+ ·Latest Sh'ma 9:35 / 10:11\n
+ ·Shacharis <b>9:15 only<b>\n
+ ·Mincha 7:30\n
+ ·Sunset 7:44\n
+ ·Motzoai Yom Tov 8:29\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm823@sscm.org
+DTSTAMP:20180402
+DTSTART:20180402
+SUMMARY:י״ז ניסן תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ Omer 2\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm824@sscm.org
+DTSTAMP:20180403
+DTSTART:20180403
+SUMMARY:י״ח ניסן תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ Omer 3\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm825@sscm.org
+DTSTAMP:20180404
+DTSTART:20180404
+SUMMARY:י״ט ניסן תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ Omer 4\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 7:30\n
+ ·Maariv 8:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm826@sscm.org
+DTSTAMP:20180405
+DTSTART:20180405
+SUMMARY:כ׳ ניסן תשע״ח
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ <b>Erev Yom Tov</b>\n
+ Omer 5\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ <b>·Eiruv Tavshilin</b>\n
+ <b>·Mincha 6:15 / 7:15</b>\n
+ ·Plag HaMincha 6:29\n
+ ·Candle Lighting 7:31*\n
+ ·Sunset 7:49\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm827@sscm.org
+DTSTAMP:20180406
+DTSTART:20180406
+SUMMARY:כ״א ניסן תשע״ח
+DESCRIPTION:
+ <b>Seventh Day of Pesach</b>\n
+ Omer 6\n
+ ·Sunrise 6:51\n
+ ·Latest Sh'ma 9:29 / 10:05\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Mincha 6:15 / 7:15</b>\n
+ ·Plag HaMincha 6:29\n
+ ·Candle Lighting 7:32*\n
+ ·Sunset 7:50\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm828@sscm.org
+DTSTAMP:20180407
+DTSTART:20180407
+SUMMARY:כ״ב ניסן תשע״ח
+DESCRIPTION:
+ <b>Eighth Day of Pesach</b>\n
+ Omer 7\n
+ ·Sunrise 6:49\n
+ ·Latest Sh'ma 9:28 / 10:04\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Yizkor 9:30 / 10:30 (approx.)</b>\n
+ ·Mincha 6:00 / 7:20\n
+ ·Shiurim 6:20\n
+ <b>·Neilas Hachag after Mincha</b>\n
+ ·Sunset 7:52\n
+ ·Motzoai Shabbos & Y.T. 8:37\n
+ Allow one hour for repurchase of chometz\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm829@sscm.org
+DTSTAMP:20180408
+DTSTART:20180408
+SUMMARY:כ״ג ניסן תשע״ח
+DESCRIPTION:
+ Omer 8\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Maariv 8:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm830@sscm.org
+DTSTAMP:20180409
+DTSTART:20180409
+SUMMARY:כ״ד ניסן תשע״ח
+DESCRIPTION:
+ Omer 9\n
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 7:40\n
+ ·Maariv 8:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm831@sscm.org
+DTSTAMP:20180410
+DTSTART:20180410
+SUMMARY:כ״ה ניסן תשע״ח
+DESCRIPTION:
+ Omer 10\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Maariv 8:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm832@sscm.org
+DTSTAMP:20180411
+DTSTART:20180411
+SUMMARY:כ״ו ניסן תשע״ח
+DESCRIPTION:
+ Omer 11\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Maariv 8:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm833@sscm.org
+DTSTAMP:20180412
+DTSTART:20180412
+SUMMARY:כ״ז ניסן תשע״ח
+DESCRIPTION:
+ Omer 12\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Maariv 8:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm834@sscm.org
+DTSTAMP:20180413
+DTSTART:20180413
+SUMMARY:כ״ח ניסן תשע״ח
+DESCRIPTION:
+ Omer 13\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:50\n
+ ·Mincha 6:20 / 7:15\n
+ ·Plag HaMincha 6:36\n
+ ·Candle Lighting 7:41*\n
+ ·Sunset 7:59\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm835@sscm.org
+DTSTAMP:20180414
+DTSTART:20180414
+SUMMARY:כ״ט ניסן תשע״ח
+DESCRIPTION:
+ <b>Shmini</b>\n
+ <b>Birkas HaChodesh</b>\n
+ Omer 14\n
+ ·Sunrise 6:37\n
+ ·Latest Sh'ma 9:21 / 9:57\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #1 5:30\n
+ ·Mincha 6:00 / 7:25\n
+ ·Shiurim 6:25\n
+ ·Navi Shiur 6:40\n
+ ·Sunset 8:00\n
+ ·Avos 8:25\n
+ ·Motzoai Shabbos 8:45\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm836@sscm.org
+DTSTAMP:20180415
+DTSTART:20180415
+SUMMARY:ל׳ ניסן תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Iyyar</b>\n
+ Omer 15\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Maariv 8:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm837@sscm.org
+DTSTAMP:20180416
+DTSTART:20180416
+SUMMARY:א׳ אייר תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Iyyar</b>\n
+ Omer 16\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Maariv 8:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm838@sscm.org
+DTSTAMP:20180417
+DTSTART:20180417
+SUMMARY:ב׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 17\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Maariv 8:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm839@sscm.org
+DTSTAMP:20180418
+DTSTART:20180418
+SUMMARY:ג׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 18\n
+ <b>Yom HaZikaron</b>\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Maariv 8:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm840@sscm.org
+DTSTAMP:20180419
+DTSTART:20180419
+SUMMARY:ד׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 19\n
+ <b>Yom HaAtzmaut</b>\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Maariv 8:20 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm841@sscm.org
+DTSTAMP:20180420
+DTSTART:20180420
+SUMMARY:ה׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 20\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:55\n
+ ·Mincha 6:25 / 7:15\n
+ ·Plag HaMincha 6:42\n
+ ·Candle Lighting 7:49*\n
+ ·Sunset 8:07\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm842@sscm.org
+DTSTAMP:20180421
+DTSTART:20180421
+SUMMARY:ו׳ אייר תשע״ח
+DESCRIPTION:
+ <b>Tazria-Metzora</b>\n
+ Omer 21\n
+ ·Sunrise 6:26\n
+ ·Latest Sh'ma 9:15 / 9:51\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #2 5:30\n
+ ·Mincha 6:00 / 7:35\n
+ ·Shiurim 6:35\n
+ ·Navi Shiur 6:50\n
+ ·Sunset 8:08\n
+ ·Avos 8:35\n
+ ·Motzoai Shabbos 8:53\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm843@sscm.org
+DTSTAMP:20180422
+DTSTART:20180422
+SUMMARY:ז׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 22\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm844@sscm.org
+DTSTAMP:20180423
+DTSTART:20180423
+SUMMARY:ח׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 23\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm845@sscm.org
+DTSTAMP:20180424
+DTSTART:20180424
+SUMMARY:ט׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 24\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm846@sscm.org
+DTSTAMP:20180425
+DTSTART:20180425
+SUMMARY:י׳ אייר תשע״ח
+DESCRIPTION:
+ Omer 25\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm847@sscm.org
+DTSTAMP:20180426
+DTSTART:20180426
+SUMMARY:י״א אייר תשע״ח
+DESCRIPTION:
+ Omer 26\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm848@sscm.org
+DTSTAMP:20180427
+DTSTART:20180427
+SUMMARY:י״ב אייר תשע״ח
+DESCRIPTION:
+ Omer 27\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:00\n
+ ·Mincha 6:30 / 7:15\n
+ ·Plag HaMincha 6:48\n
+ ·Candle Lighting 7:57*\n
+ ·Sunset 8:15\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm849@sscm.org
+DTSTAMP:20180428
+DTSTART:20180428
+SUMMARY:י״ג אייר תשע״ח
+DESCRIPTION:
+ <b>Achrei Mos-Kedoshim</b>\n
+ Omer 28\n
+ ·Sunrise 6:15\n
+ ·Latest Sh'ma 9:09 / 9:45\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #3 5:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Shiurim 6:40\n
+ ·Navi Shiur 6:55\n
+ ·Sunset 8:17\n
+ ·Avos 8:40\n
+ ·Motzoai Shabbos 9:02\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm850@sscm.org
+DTSTAMP:20180429
+DTSTART:20180429
+SUMMARY:י״ד אייר תשע״ח
+DESCRIPTION:
+ Omer 29\n
+ <b>Pesach Sheini</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:05\n
+ ·Maariv 8:35 / 9:30\n
+ <b>Last night for Kiddush Levana (until Mon 4:38 a.m.)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm851@sscm.org
+DTSTAMP:20180430
+DTSTART:20180430
+SUMMARY:ט״ו אייר תשע״ח
+DESCRIPTION:
+ Omer 30\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:05\n
+ ·Maariv 8:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm852@sscm.org
+DTSTAMP:20180501
+DTSTART:20180501
+SUMMARY:ט״ז אייר תשע״ח
+DESCRIPTION:
+ Omer 31\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:05\n
+ ·Maariv 8:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm853@sscm.org
+DTSTAMP:20180502
+DTSTART:20180502
+SUMMARY:י״ז אייר תשע״ח
+DESCRIPTION:
+ Omer 32\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:05\n
+ ·Maariv 8:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm854@sscm.org
+DTSTAMP:20180503
+DTSTART:20180503
+SUMMARY:י״ח אייר תשע״ח
+DESCRIPTION:
+ <b>Lag B'Omer</b>\n
+ Omer 33\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:05\n
+ ·Maariv 8:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm855@sscm.org
+DTSTAMP:20180504
+DTSTART:20180504
+SUMMARY:י״ט אייר תשע״ח
+DESCRIPTION:
+ Omer 34\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:10\n
+ ·Mincha 6:40 / 7:15\n
+ ·Plag HaMincha 6:55\n
+ ·Candle Lighting 8:06*\n
+ ·Sunset 8:24\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm856@sscm.org
+DTSTAMP:20180505
+DTSTART:20180505
+SUMMARY:כ׳ אייר תשע״ח
+DESCRIPTION:
+ <b>Emor</b>\n
+ Omer 35\n
+ ·Sunrise 6:05\n
+ ·Latest Sh'ma 9:04 / 9:40\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #4 5:30\n
+ ·Mincha 6:00 / 7:50\n
+ ·Shiurim 6:50\n
+ ·Navi Shiur 7:05\n
+ ·Sunset 8:25\n
+ ·Avos 8:50\n
+ ·Motzoai Shabbos 9:10\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm857@sscm.org
+DTSTAMP:20180506
+DTSTART:20180506
+SUMMARY:כ״א אייר תשע״ח
+DESCRIPTION:
+ Omer 36\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15\n
+ ·Maariv 8:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm858@sscm.org
+DTSTAMP:20180507
+DTSTART:20180507
+SUMMARY:כ״ב אייר תשע״ח
+DESCRIPTION:
+ Omer 37\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15\n
+ ·Maariv 8:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm859@sscm.org
+DTSTAMP:20180508
+DTSTART:20180508
+SUMMARY:כ״ג אייר תשע״ח
+DESCRIPTION:
+ Omer 38\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15\n
+ ·Maariv 8:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm860@sscm.org
+DTSTAMP:20180509
+DTSTART:20180509
+SUMMARY:כ״ד אייר תשע״ח
+DESCRIPTION:
+ Omer 39\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15\n
+ ·Maariv 8:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm861@sscm.org
+DTSTAMP:20180510
+DTSTART:20180510
+SUMMARY:כ״ה אייר תשע״ח
+DESCRIPTION:
+ Omer 40\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15\n
+ ·Maariv 8:45 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm862@sscm.org
+DTSTAMP:20180511
+DTSTART:20180511
+SUMMARY:כ״ו אייר תשע״ח
+DESCRIPTION:
+ Omer 41\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:15\n
+ ·Mincha 6:45 / 7:15\n
+ ·Plag HaMincha 7:01\n
+ ·Candle Lighting 8:14*\n
+ ·Sunset 8:32\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm863@sscm.org
+DTSTAMP:20180512
+DTSTART:20180512
+SUMMARY:כ״ז אייר תשע״ח
+DESCRIPTION:
+ <b>Behar-Bechukosai</b>\n
+ <b>Birkas HaChodesh</b>\n
+ Omer 42\n
+ ·Sunrise 5:56\n
+ ·Latest Sh'ma 8:59 / 9:35\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #5 5:30\n
+ ·Mincha 6:00 / 8:00\n
+ ·Shiurim 7:00\n
+ ·Navi Shiur 7:15\n
+ ·Sunset 8:33\n
+ ·Avos 9:00\n
+ ·Motzoai Shabbos 9:18\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm864@sscm.org
+DTSTAMP:20180513
+DTSTART:20180513
+SUMMARY:כ״ח אייר תשע״ח
+DESCRIPTION:
+ Omer 43\n
+ <b>Yom Yerushalayim</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm865@sscm.org
+DTSTAMP:20180514
+DTSTART:20180514
+SUMMARY:כ״ט אייר תשע״ח
+DESCRIPTION:
+ Omer 44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm866@sscm.org
+DTSTAMP:20180515
+DTSTART:20180515
+SUMMARY:א׳ סיון תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Sivan</b>\n
+ Omer 45\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm867@sscm.org
+DTSTAMP:20180516
+DTSTART:20180516
+SUMMARY:ב׳ סיון תשע״ח
+DESCRIPTION:
+ Omer 46\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm868@sscm.org
+DTSTAMP:20180517
+DTSTART:20180517
+SUMMARY:ג׳ סיון תשע״ח
+DESCRIPTION:
+ Omer 47\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm869@sscm.org
+DTSTAMP:20180518
+DTSTART:20180518
+SUMMARY:ד׳ סיון תשע״ח
+DESCRIPTION:
+ Omer 48\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:20\n
+ ·Mincha 6:50 / 7:15\n
+ ·Plag HaMincha 7:07\n
+ ·Candle Lighting 8:21*\n
+ ·Sunset 8:39\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm870@sscm.org
+DTSTAMP:20180519
+DTSTART:20180519
+SUMMARY:ה׳ סיון תשע״ח
+DESCRIPTION:
+ <b>Bamidbar</b>\n
+ Omer 49\n
+ <b>Erev Shavuos</b>\n
+ ·Sunrise 5:49\n
+ ·Latest Sh'ma 8:55 / 9:31\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #6 5:30\n
+ ·Mincha 2:30 / 8:15\n
+ ·Shiurim 7:15\n
+ ·Navi Shiur 7:30\n
+ ·Sunset 8:40\n
+ ·Candle Lighting <b>after<b> 9:25\n
+ ·Learning Program 11:45\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm871@sscm.org
+DTSTAMP:20180520
+DTSTART:20180520
+SUMMARY:ו׳ סיון תשע״ח
+DESCRIPTION:
+ <b>First Day of Shavuos</b>\n
+ ·Sunrise 5:48\n
+ ·Latest Sh'ma 8:55 / 9:31\n
+ <b>·Shacharis 5:00** / 9:00</b>\n
+ <b>**K'vasikin</b>\n
+ ·Mincha 6:00 / 8:25\n
+ ·Sunset 8:41\n
+ ·Candle Lighting <b>after<b> 9:26\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm872@sscm.org
+DTSTAMP:20180521
+DTSTART:20180521
+SUMMARY:ז׳ סיון תשע״ח
+DESCRIPTION:
+ <b>Second Day of Shavuos</b>\n
+ ·Sunrise 5:47\n
+ ·Latest Sh'ma 8:54 / 9:30\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Yizkor 9:30 / 10:30 (approx.)</b>\n
+ <b>·Mincha 6:00 / 8:20</b>\n
+ <b>·Neilas Hachag after Mincha</b>\n
+ ·Sunset 8:42\n
+ ·Motzoai Yom Tov 9:27\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm873@sscm.org
+DTSTAMP:20180522
+DTSTART:20180522
+SUMMARY:ח׳ סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm874@sscm.org
+DTSTAMP:20180523
+DTSTART:20180523
+SUMMARY:ט׳ סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm875@sscm.org
+DTSTAMP:20180524
+DTSTART:20180524
+SUMMARY:י׳ סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm876@sscm.org
+DTSTAMP:20180525
+DTSTART:20180525
+SUMMARY:י״א סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:25\n
+ ·Mincha 6:55 / 7:15\n
+ ·Plag HaMincha 7:12\n
+ ·Candle Lighting 8:28*\n
+ ·Sunset 8:46\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm877@sscm.org
+DTSTAMP:20180526
+DTSTART:20180526
+SUMMARY:י״ב סיון תשע״ח
+DESCRIPTION:
+ <b>Nasso</b>\n
+ ·Sunrise 5:43\n
+ ·Latest Sh'ma 8:53 / 9:29\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #1 5:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Shiurim 7:10\n
+ ·Navi Shiur 7:25\n
+ ·Sunset 8:47\n
+ ·Avos 9:10\n
+ ·Motzoai Shabbos 9:32\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm878@sscm.org
+DTSTAMP:20180527
+DTSTART:20180527
+SUMMARY:י״ג סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm879@sscm.org
+DTSTAMP:20180528
+DTSTART:20180528
+SUMMARY:י״ד סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm880@sscm.org
+DTSTAMP:20180529
+DTSTART:20180529
+SUMMARY:ט״ו סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm881@sscm.org
+DTSTAMP:20180530
+DTSTART:20180530
+SUMMARY:ט״ז סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm882@sscm.org
+DTSTAMP:20180531
+DTSTART:20180531
+SUMMARY:י״ז סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm883@sscm.org
+DTSTAMP:20180601
+DTSTART:20180601
+SUMMARY:י״ח סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:30\n
+ ·Mincha 7:00 / 7:15\n
+ ·Plag HaMincha 7:17\n
+ ·Candle Lighting 8:34*\n
+ ·Sunset 8:52\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm884@sscm.org
+DTSTAMP:20180602
+DTSTART:20180602
+SUMMARY:י״ט סיון תשע״ח
+DESCRIPTION:
+ <b>Beha'aloscha</b>\n
+ ·Sunrise 5:38\n
+ ·Latest Sh'ma 8:50 / 9:26\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #2 5:30\n
+ ·Mincha 6:00 / 8:20\n
+ ·Shiurim 7:20\n
+ ·Navi Shiur 7:35\n
+ ·Sunset 8:53\n
+ ·Avos 9:20\n
+ ·Motzoai Shabbos 9:38\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm885@sscm.org
+DTSTAMP:20180603
+DTSTART:20180603
+SUMMARY:כ׳ סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm886@sscm.org
+DTSTAMP:20180604
+DTSTART:20180604
+SUMMARY:כ״א סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm887@sscm.org
+DTSTAMP:20180605
+DTSTART:20180605
+SUMMARY:כ״ב סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm888@sscm.org
+DTSTAMP:20180606
+DTSTART:20180606
+SUMMARY:כ״ג סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm889@sscm.org
+DTSTAMP:20180607
+DTSTART:20180607
+SUMMARY:כ״ד סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm890@sscm.org
+DTSTAMP:20180608
+DTSTART:20180608
+SUMMARY:כ״ה סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:22\n
+ ·Candle Lighting 8:39*\n
+ ·Sunset 8:57\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm891@sscm.org
+DTSTAMP:20180609
+DTSTART:20180609
+SUMMARY:כ״ו סיון תשע״ח
+DESCRIPTION:
+ <b>Sh'lach</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 5:36\n
+ ·Latest Sh'ma 8:50 / 9:26\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #3 5:30\n
+ ·Mincha 6:00 / 8:25\n
+ ·Shiurim 7:25\n
+ ·Navi Shiur 7:40\n
+ ·Sunset 8:58\n
+ ·Avos 9:25\n
+ ·Motzoai Shabbos 9:43\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm892@sscm.org
+DTSTAMP:20180610
+DTSTART:20180610
+SUMMARY:כ״ז סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm893@sscm.org
+DTSTAMP:20180611
+DTSTART:20180611
+SUMMARY:כ״ח סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm894@sscm.org
+DTSTAMP:20180612
+DTSTART:20180612
+SUMMARY:כ״ט סיון תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm895@sscm.org
+DTSTAMP:20180613
+DTSTART:20180613
+SUMMARY:ל׳ סיון תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Tammuz</b>\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm896@sscm.org
+DTSTAMP:20180614
+DTSTART:20180614
+SUMMARY:א׳ תמוז תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Tammuz</b>\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm897@sscm.org
+DTSTAMP:20180615
+DTSTART:20180615
+SUMMARY:ב׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:25\n
+ ·Candle Lighting 8:43*\n
+ ·Sunset 9:01\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm898@sscm.org
+DTSTAMP:20180616
+DTSTART:20180616
+SUMMARY:ג׳ תמוז תשע״ח
+DESCRIPTION:
+ <b>Korach</b>\n
+ ·Sunrise 5:35\n
+ ·Latest Sh'ma 8:50 / 9:26\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #4 5:30\n
+ ·Mincha 6:00 / 8:25\n
+ ·Shiurim 7:25\n
+ ·Navi Shiur 7:40\n
+ ·Sunset 9:02\n
+ ·Avos 9:25\n
+ ·Motzoai Shabbos 9:47\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm899@sscm.org
+DTSTAMP:20180617
+DTSTART:20180617
+SUMMARY:ד׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm900@sscm.org
+DTSTAMP:20180618
+DTSTART:20180618
+SUMMARY:ה׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm901@sscm.org
+DTSTAMP:20180619
+DTSTART:20180619
+SUMMARY:ו׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm902@sscm.org
+DTSTAMP:20180620
+DTSTART:20180620
+SUMMARY:ז׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm903@sscm.org
+DTSTAMP:20180621
+DTSTART:20180621
+SUMMARY:ח׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm904@sscm.org
+DTSTAMP:20180622
+DTSTART:20180622
+SUMMARY:ט׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:27\n
+ ·Candle Lighting 8:45*\n
+ ·Sunset 9:03\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm905@sscm.org
+DTSTAMP:20180623
+DTSTART:20180623
+SUMMARY:י׳ תמוז תשע״ח
+DESCRIPTION:
+ <b>Chukas</b>\n
+ ·Sunrise 5:36\n
+ ·Latest Sh'ma 8:51 / 9:27\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #5 5:30\n
+ ·Mincha 6:00 / 8:30\n
+ ·Shiurim 7:30\n
+ ·Navi Shiur 7:45\n
+ ·Sunset 9:03\n
+ ·Avos 9:30\n
+ ·Motzoai Shabbos 9:48\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm906@sscm.org
+DTSTAMP:20180624
+DTSTART:20180624
+SUMMARY:י״א תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm907@sscm.org
+DTSTAMP:20180625
+DTSTART:20180625
+SUMMARY:י״ב תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm908@sscm.org
+DTSTAMP:20180626
+DTSTART:20180626
+SUMMARY:י״ג תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm909@sscm.org
+DTSTAMP:20180627
+DTSTART:20180627
+SUMMARY:י״ד תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm910@sscm.org
+DTSTAMP:20180628
+DTSTART:20180628
+SUMMARY:ט״ו תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm911@sscm.org
+DTSTAMP:20180629
+DTSTART:20180629
+SUMMARY:ט״ז תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:28\n
+ ·Candle Lighting 8:46*\n
+ ·Sunset 9:04\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm912@sscm.org
+DTSTAMP:20180630
+DTSTART:20180630
+SUMMARY:י״ז תמוז תשע״ח
+DESCRIPTION:
+ <b>Balak</b>\n
+ ·Sunrise 5:39\n
+ ·Latest Sh'ma 8:54 / 9:30\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #6 5:30\n
+ ·Mincha 6:00 / 8:30\n
+ ·Shiurim 7:30\n
+ ·Navi Shiur 7:45\n
+ ·Sunset 9:03\n
+ ·Avos 9:30\n
+ ·Motzoai Shabbos 9:48\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm913@sscm.org
+DTSTAMP:20180701
+DTSTART:20180701
+SUMMARY:י״ח תמוז תשע״ח
+DESCRIPTION:
+ <b>Shiva Asar B'Tammuz</b>\n
+ ·Fast begins 3:39\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ <b>·Mincha 8:30 only</b>\n
+ ·Sunset 9:03\n
+ <b>·Maariv 9:35 only</b>\n
+ ·Fast ends 9:45**\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm914@sscm.org
+DTSTAMP:20180702
+DTSTART:20180702
+SUMMARY:י״ט תמוז תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm915@sscm.org
+DTSTAMP:20180703
+DTSTART:20180703
+SUMMARY:כ׳ תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm916@sscm.org
+DTSTAMP:20180704
+DTSTART:20180704
+SUMMARY:כ״א תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm917@sscm.org
+DTSTAMP:20180705
+DTSTART:20180705
+SUMMARY:כ״ב תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:50\n
+ ·Maariv 9:20 / 9:37\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm918@sscm.org
+DTSTAMP:20180706
+DTSTART:20180706
+SUMMARY:כ״ג תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:27\n
+ ·Candle Lighting 8:44*\n
+ ·Sunset 9:02\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm919@sscm.org
+DTSTAMP:20180707
+DTSTART:20180707
+SUMMARY:כ״ד תמוז תשע״ח
+DESCRIPTION:
+ <b>Pinchas</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 5:43\n
+ ·Latest Sh'ma 8:56 / 9:32\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #1 5:30\n
+ ·Mincha 6:00 / 8:25\n
+ ·Shiurim 7:25\n
+ ·Navi Shiur 7:40\n
+ ·Sunset 9:02\n
+ ·Avos 9:25\n
+ ·Motzoai Shabbos 9:47\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm920@sscm.org
+DTSTAMP:20180708
+DTSTART:20180708
+SUMMARY:כ״ה תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm921@sscm.org
+DTSTAMP:20180709
+DTSTART:20180709
+SUMMARY:כ״ו תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm922@sscm.org
+DTSTAMP:20180710
+DTSTART:20180710
+SUMMARY:כ״ז תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm923@sscm.org
+DTSTAMP:20180711
+DTSTART:20180711
+SUMMARY:כ״ח תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm924@sscm.org
+DTSTAMP:20180712
+DTSTART:20180712
+SUMMARY:כ״ט תמוז תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:45\n
+ ·Maariv 9:15 / 9:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm925@sscm.org
+DTSTAMP:20180713
+DTSTART:20180713
+SUMMARY:א׳ מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Av</b>\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:25\n
+ ·Candle Lighting 8:41*\n
+ ·Sunset 8:59\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm926@sscm.org
+DTSTAMP:20180714
+DTSTART:20180714
+SUMMARY:ב׳ מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Matos-Masei</b>\n
+ ·Sunrise 5:49\n
+ ·Latest Sh'ma 9:00 / 9:36\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #2 5:30\n
+ ·Mincha 6:00 / 8:25\n
+ ·Shiurim 7:25\n
+ ·Navi Shiur 7:40\n
+ ·Sunset 8:58\n
+ ·Avos 9:25\n
+ ·Motzoai Shabbos 9:43\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm927@sscm.org
+DTSTAMP:20180715
+DTSTART:20180715
+SUMMARY:ג׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm928@sscm.org
+DTSTAMP:20180716
+DTSTART:20180716
+SUMMARY:ד׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm929@sscm.org
+DTSTAMP:20180717
+DTSTART:20180717
+SUMMARY:ה׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm930@sscm.org
+DTSTAMP:20180718
+DTSTART:20180718
+SUMMARY:ו׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm931@sscm.org
+DTSTAMP:20180719
+DTSTART:20180719
+SUMMARY:ז׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:40\n
+ ·Maariv 9:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm932@sscm.org
+DTSTAMP:20180720
+DTSTART:20180720
+SUMMARY:ח׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:35\n
+ ·Mincha 7:05 / 7:15\n
+ ·Plag HaMincha 7:21\n
+ ·Candle Lighting 8:36*\n
+ ·Sunset 8:54\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm933@sscm.org
+DTSTAMP:20180721
+DTSTART:20180721
+SUMMARY:ט׳ מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Devarim - Erev Tisha B'Av</b>\n
+ <b>Shabbos Chazon</b>\n
+ ·Sunrise 5:55\n
+ ·Latest Sh'ma 9:03 / 9:39\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Chatzos 1:24\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Shiurim 5:50\n
+ ·Mincha 6:00 / <b>6:50<b>\n
+ ·Navi Shiur 6:05\n
+ ·Fast begins at sunset 8:53\n
+ ·Motzoai Shabbos 9:38\n
+ ·Maariv 10:10\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm934@sscm.org
+DTSTAMP:20180722
+DTSTART:20180722
+SUMMARY:י׳ מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Tisha B'Av</b>\n
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Chatzos 1:24\n
+ <b>·Mincha 2:00 / 4:30 / 8:10</b>\n
+ ·Sunset 8:52\n
+ <b>·Maariv 9:25 only</b>\n
+ ·Fast ends 9:37**\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm935@sscm.org
+DTSTAMP:20180723
+DTSTART:20180723
+SUMMARY:י״א מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm936@sscm.org
+DTSTAMP:20180724
+DTSTART:20180724
+SUMMARY:י״ב מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm937@sscm.org
+DTSTAMP:20180725
+DTSTART:20180725
+SUMMARY:י״ג מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm938@sscm.org
+DTSTAMP:20180726
+DTSTART:20180726
+SUMMARY:י״ד מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:35\n
+ ·Maariv 9:05 / 9:30\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm939@sscm.org
+DTSTAMP:20180727
+DTSTART:20180727
+SUMMARY:ט״ו מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Tu B'Av</b>\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 6:30\n
+ ·Mincha 7:00 / 7:15\n
+ ·Plag HaMincha 7:15\n
+ ·Candle Lighting 8:29*\n
+ ·Sunset 8:47\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm940@sscm.org
+DTSTAMP:20180728
+DTSTART:20180728
+SUMMARY:ט״ז מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Vaeschanan</b>\n
+ <b>Shabbos Nachamu</b>\n
+ ·Sunrise 6:02\n
+ ·Latest Sh'ma 9:07 / 9:43\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Avos UBanim  5:00-6:00\n
+ ·Women's Avos #3 5:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Shiurim 7:10\n
+ ·Navi Shiur 7:25\n
+ ·Sunset 8:46\n
+ ·Avos 9:10\n
+ ·Motzoai Shabbos 9:31\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm941@sscm.org
+DTSTAMP:20180729
+DTSTART:20180729
+SUMMARY:י״ז מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm942@sscm.org
+DTSTAMP:20180730
+DTSTART:20180730
+SUMMARY:י״ח מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm943@sscm.org
+DTSTAMP:20180731
+DTSTART:20180731
+SUMMARY:י״ט מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm944@sscm.org
+DTSTAMP:20180801
+DTSTART:20180801
+SUMMARY:כ׳ מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm945@sscm.org
+DTSTAMP:20180802
+DTSTART:20180802
+SUMMARY:כ״א מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:30\n
+ ·Maariv 9:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm946@sscm.org
+DTSTAMP:20180803
+DTSTART:20180803
+SUMMARY:כ״ב מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:55 / 7:15\n
+ ·Plag HaMincha 7:09\n
+ ·Candle Lighting 8:21*\n
+ ·Sunset 8:39\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm947@sscm.org
+DTSTAMP:20180804
+DTSTART:20180804
+SUMMARY:כ״ג מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Eikev</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 6:10\n
+ ·Latest Sh'ma 9:10 / 9:46\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #4 5:30\n
+ ·Mincha 6:00 / 8:00\n
+ ·Shiurim 7:00\n
+ ·Navi Shiur 7:15\n
+ ·Sunset 8:37\n
+ ·Avos 9:00\n
+ ·Motzoai Shabbos 9:22\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm948@sscm.org
+DTSTAMP:20180805
+DTSTART:20180805
+SUMMARY:כ״ד מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm949@sscm.org
+DTSTAMP:20180806
+DTSTART:20180806
+SUMMARY:כ״ה מנחם אב תשע״ח
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm950@sscm.org
+DTSTAMP:20180807
+DTSTART:20180807
+SUMMARY:כ״ו מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm951@sscm.org
+DTSTAMP:20180808
+DTSTART:20180808
+SUMMARY:כ״ז מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm952@sscm.org
+DTSTAMP:20180809
+DTSTART:20180809
+SUMMARY:כ״ח מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:15 / 8:20\n
+ ·Maariv 8:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm953@sscm.org
+DTSTAMP:20180810
+DTSTART:20180810
+SUMMARY:כ״ט מנחם אב תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:45 / 7:15\n
+ ·Plag HaMincha 7:01\n
+ ·Candle Lighting 8:11*\n
+ ·Sunset 8:29\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm954@sscm.org
+DTSTAMP:20180811
+DTSTART:20180811
+SUMMARY:ל׳ מנחם אב תשע״ח
+DESCRIPTION:
+ <b>Re'eh</b>\n
+ <b>Rosh Chodesh Elul</b>\n
+ ·Sunrise 6:17\n
+ ·Latest Sh'ma 9:13 / 9:49\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Women's Avos #5 5:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Shiurim 6:55\n
+ ·Navi Shiur 7:10\n
+ ·Sunset 8:28\n
+ ·Avos 8:55\n
+ ·Motzoai Shabbos 9:13\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm955@sscm.org
+DTSTAMP:20180812
+DTSTART:20180812
+SUMMARY:א׳ אלול תשע״ח
+DESCRIPTION:
+ <b>Rosh Chodesh Elul</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Maariv 8:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm956@sscm.org
+DTSTAMP:20180813
+DTSTART:20180813
+SUMMARY:ב׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Maariv 8:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm957@sscm.org
+DTSTAMP:20180814
+DTSTART:20180814
+SUMMARY:ג׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Maariv 8:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm958@sscm.org
+DTSTAMP:20180815
+DTSTART:20180815
+SUMMARY:ד׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Maariv 8:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm959@sscm.org
+DTSTAMP:20180816
+DTSTART:20180816
+SUMMARY:ה׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 8:10\n
+ ·Maariv 8:40 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm960@sscm.org
+DTSTAMP:20180817
+DTSTART:20180817
+SUMMARY:ו׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:35 / 7:15\n
+ ·Plag HaMincha 6:53\n
+ ·Candle Lighting 8:01*\n
+ ·Sunset 8:19\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm961@sscm.org
+DTSTAMP:20180818
+DTSTART:20180818
+SUMMARY:ז׳ אלול תשע״ח
+DESCRIPTION:
+ <b>Shoftim</b>\n
+ ·Sunrise 6:25\n
+ ·Latest Sh'ma 9:17 / 9:53\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #6 5:30\n
+ ·Mincha 6:00 / 7:40\n
+ ·Shiurim 6:40\n
+ ·Navi Shiur 6:55\n
+ ·Sunset 8:17\n
+ ·Avos 8:40\n
+ ·Motzoai Shabbos 9:02\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm962@sscm.org
+DTSTAMP:20180819
+DTSTART:20180819
+SUMMARY:ח׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm963@sscm.org
+DTSTAMP:20180820
+DTSTART:20180820
+SUMMARY:ט׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm964@sscm.org
+DTSTAMP:20180821
+DTSTART:20180821
+SUMMARY:י׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm965@sscm.org
+DTSTAMP:20180822
+DTSTART:20180822
+SUMMARY:י״א אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm966@sscm.org
+DTSTAMP:20180823
+DTSTART:20180823
+SUMMARY:י״ב אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:55\n
+ ·Maariv 8:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm967@sscm.org
+DTSTAMP:20180824
+DTSTART:20180824
+SUMMARY:י״ג אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:25 / 7:15\n
+ ·Plag HaMincha 6:43\n
+ ·Candle Lighting 7:49*\n
+ ·Sunset 8:07\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm968@sscm.org
+DTSTAMP:20180825
+DTSTART:20180825
+SUMMARY:י״ד אלול תשע״ח
+DESCRIPTION:
+ <b>Ki Seitzei</b>\n
+ ·Sunrise 6:33\n
+ ·Latest Sh'ma 9:20 / 9:56\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #1-2 5:30\n
+ ·Mincha 6:00 / 7:30\n
+ ·Shiurim 6:30\n
+ ·Navi Shiur 6:45\n
+ ·Sunset 8:06\n
+ ·Avos 8:30\n
+ ·Motzoai Shabbos 8:51\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm969@sscm.org
+DTSTAMP:20180826
+DTSTART:20180826
+SUMMARY:ט״ו אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:45\n
+ ·Maariv 8:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm970@sscm.org
+DTSTAMP:20180827
+DTSTART:20180827
+SUMMARY:ט״ז אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:45\n
+ ·Maariv 8:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm971@sscm.org
+DTSTAMP:20180828
+DTSTART:20180828
+SUMMARY:י״ז אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:45\n
+ ·Maariv 8:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm972@sscm.org
+DTSTAMP:20180829
+DTSTART:20180829
+SUMMARY:י״ח אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:45\n
+ ·Maariv 8:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm973@sscm.org
+DTSTAMP:20180830
+DTSTART:20180830
+SUMMARY:י״ט אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 7:45\n
+ ·Maariv 8:15 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm974@sscm.org
+DTSTAMP:20180831
+DTSTART:20180831
+SUMMARY:כ׳ אלול תשע״ח
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:20 / 7:15\n
+ ·Plag HaMincha 6:34\n
+ ·Candle Lighting 7:38*\n
+ ·Sunset 7:56\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm975@sscm.org
+DTSTAMP:20180901
+DTSTART:20180901
+SUMMARY:כ״א אלול תשע״ח
+DESCRIPTION:
+ <b>Ki Savo</b>\n
+ ·Sunrise 6:41\n
+ ·Latest Sh'ma 9:23 / 9:59\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #3-4 5:30\n
+ ·Mincha 6:00 / 7:20\n
+ ·Shiurim 6:20\n
+ ·Navi Shiur 6:35\n
+ ·Sunset 7:54\n
+ ·Avos 8:20\n
+ ·Motzoai Shabbos 8:39\n
+ ·Teshuva Shiur 11:45\n
+ <b>·Slichos 1:00 a.m.</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm976@sscm.org
+DTSTAMP:20180902
+DTSTART:20180902
+SUMMARY:כ״ב אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 1:00 a.m.</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 7:35\n
+ ·Maariv 8:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm977@sscm.org
+DTSTAMP:20180903
+DTSTART:20180903
+SUMMARY:כ״ג אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 7:00 / 8:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:35\n
+ ·Maariv 8:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm978@sscm.org
+DTSTAMP:20180904
+DTSTART:20180904
+SUMMARY:כ״ד אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:35\n
+ ·Maariv 8:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm979@sscm.org
+DTSTAMP:20180905
+DTSTART:20180905
+SUMMARY:כ״ה אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:35\n
+ ·Maariv 8:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm980@sscm.org
+DTSTAMP:20180906
+DTSTART:20180906
+SUMMARY:כ״ו אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:35\n
+ ·Maariv 8:05 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm981@sscm.org
+DTSTAMP:20180907
+DTSTART:20180907
+SUMMARY:כ״ז אלול תשע״ח
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:25 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Likras Shabbos for Boys 5:35\n
+ ·Mincha 6:05 / 7:15\n
+ ·Plag HaMincha 6:23\n
+ ·Candle Lighting 7:25*\n
+ ·Sunset 7:43\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm982@sscm.org
+DTSTAMP:20180908
+DTSTART:20180908
+SUMMARY:כ״ח אלול תשע״ח
+DESCRIPTION:
+ <b>Nitzavim</b>\n
+ ·Sunrise 6:49\n
+ ·Latest Sh'ma 9:26 / 10:02\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Women's Avos #5-6 5:30\n
+ ·Mincha 6:00 / 7:05\n
+ ·Shiurim 6:05\n
+ ·Navi Shiur 6:20\n
+ ·Sunset 7:41\n
+ ·Avos 8:05\n
+ ·Motzoai Shabbos 8:26\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm983@sscm.org
+DTSTAMP:20180909
+DTSTART:20180909
+SUMMARY:כ״ט אלול תשע״ח
+DESCRIPTION:
+ <b>Erev Rosh Hashana</b>\n
+ <b>·Slichos 6:30 only</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Hataras Nedarim</b>\n
+ ·Candle Lighting 7:21\n
+ ·Mincha 7:25\n
+ ·Sunset 7:39\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm984@sscm.org
+DTSTAMP:20180910
+DTSTART:20180910
+SUMMARY:א׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>First Day of Rosh Hashana 5779</b>\n
+ ·Sunrise 6:51\n
+ ·Latest Sh'ma 9:26 / 10:02\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:35\n
+ <b>·Shofar 11:00 (approx.)</b>\n
+ ·Mincha 7:10\n
+ ·Sunset 7:38\n
+ ·Candle Lighting <b>after<b> 8:23\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm985@sscm.org
+DTSTAMP:20180911
+DTSTART:20180911
+SUMMARY:ב׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Second Day of Rosh Hashana</b>\n
+ ·Sunrise 6:52\n
+ ·Latest Sh'ma 9:27 / 10:03\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:35\n
+ <b>·Shofar 11:00 (approx.)</b>\n
+ ·Mincha 7:10\n
+ ·Sunset 7:36\n
+ ·Motzoai Yom Tov 8:21\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm986@sscm.org
+DTSTAMP:20180912
+DTSTART:20180912
+SUMMARY:ג׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Tzom Gedalia</b>\n
+ ·Fast begins 5:26\n
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Mincha 7:00 only</b>\n
+ ·Sunset 7:34\n
+ <b>·Maariv 8:05 only</b>\n
+ ·Fast ends 8:16**\n
+ **For extenuating circumstances please consult the Rav\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm987@sscm.org
+DTSTAMP:20180913
+DTSTART:20180913
+SUMMARY:ד׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:20\n
+ ·Maariv 7:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm988@sscm.org
+DTSTAMP:20180914
+DTSTART:20180914
+SUMMARY:ה׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Likras Shabbos for Boys 5:25\n
+ ·Mincha 5:55 / 7:15\n
+ ·Plag HaMincha 6:12\n
+ ·Candle Lighting 7:12*\n
+ ·Sunset 7:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm989@sscm.org
+DTSTAMP:20180915
+DTSTART:20180915
+SUMMARY:ו׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Vayeilech</b>\n
+ <b>Shabbos Shuva</b>\n
+ ·Sunrise 6:57\n
+ ·Latest Sh'ma 9:28 / 10:04\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ <b>·Mincha 5:10 / 6:50</b>\n
+ <b>·Drasha 5:40</b>\n
+ ·Sunset 7:28\n
+ ·Motzoai Shabbos 8:13\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm990@sscm.org
+DTSTAMP:20180916
+DTSTART:20180916
+SUMMARY:ז׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>·Slichos 7:00 / 7:30 / 8:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm991@sscm.org
+DTSTAMP:20180917
+DTSTART:20180917
+SUMMARY:ח׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>·Slichos 6:15 / 6:20 / 7:00</b>\n
+ ·Shacharis follows Slichos\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm992@sscm.org
+DTSTAMP:20180918
+DTSTART:20180918
+SUMMARY:ט׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Erev Yom Kippur</b>\n
+ <b>·Slichos 6:30 / 6:30 / 7:15</b>\n
+ ·Shacharis follows Slichos\n
+ <b>·Mincha 3:00 / 3:30</b>\n
+ <b>·Kol Nidrei 7:05</b>\n
+ ·Candle Lighting 7:05\n
+ ·Sunset 7:23\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm993@sscm.org
+DTSTAMP:20180919
+DTSTART:20180919
+SUMMARY:י׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Yom Kippur</b>\n
+ ·Sunrise 7:01\n
+ ·Latest Sh'ma 9:30 / 10:06\n
+ ·Shacharis <b>8:00 only<b>\n
+ ·HaMelech 8:40\n
+ <b>·Yizkor 11:30 (approx.)</b>\n
+ ·Mincha 5:05\n
+ ·Sunset 7:21\n
+ ·Motzoai Yom Kippur 8:06\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm994@sscm.org
+DTSTAMP:20180920
+DTSTART:20180920
+SUMMARY:י״א תשרי תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 7:05\n
+ ·Maariv 7:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm995@sscm.org
+DTSTAMP:20180921
+DTSTART:20180921
+SUMMARY:י״ב תשרי תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Likras Shabbos for Boys 5:15\n
+ ·Mincha 5:45 / 7:00\n
+ ·Plag HaMincha 6:01\n
+ ·Candle Lighting 6:59*\n
+ ·Sunset 7:17\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm996@sscm.org
+DTSTAMP:20180922
+DTSTART:20180922
+SUMMARY:י״ג תשרי תשע״ט
+DESCRIPTION:
+ <b>Ha'Azinu</b>\n
+ ·Sunrise 7:05\n
+ ·Latest Sh'ma 9:31 / 10:07\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 5:45\n
+ ·Mincha 6:00 / 6:45\n
+ ·Sunset 7:16\n
+ ·Motzoai Shabbos 8:01\n
+ <b>Last ideal night for Kiddush Levana</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm997@sscm.org
+DTSTAMP:20180923
+DTSTART:20180923
+SUMMARY:י״ד תשרי תשע״ט
+DESCRIPTION:
+ <b>Erev Succos</b>\n
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Candle Lighting 6:56\n
+ ·Mincha 7:00\n
+ ·Sunset 7:14\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm998@sscm.org
+DTSTAMP:20180924
+DTSTART:20180924
+SUMMARY:ט״ו תשרי תשע״ט
+DESCRIPTION:
+ <b>First Day of Succos</b>\n
+ ·Sunrise 7:07\n
+ ·Latest Sh'ma 9:32 / 10:08\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Sisterhood Tea 4:45</b>\n
+ ·Mincha 6:55\n
+ ·Sunset 7:12\n
+ ·Candle Lighting <b>after<b> 7:57\n
+ <b>Kiddush Levana only until 8:18 p.m.</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm999@sscm.org
+DTSTAMP:20180925
+DTSTART:20180925
+SUMMARY:ט״ז תשרי תשע״ט
+DESCRIPTION:
+ <b>Second Day of Succos</b>\n
+ ·Sunrise 7:08\n
+ ·Latest Sh'ma 9:32 / 10:08\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Mincha 6:55\n
+ ·Sunset 7:10\n
+ ·Motzoai Yom Tov 7:55\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1000@sscm.org
+DTSTAMP:20180926
+DTSTART:20180926
+SUMMARY:י״ז תשרי תשע״ט
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1001@sscm.org
+DTSTAMP:20180927
+DTSTART:20180927
+SUMMARY:י״ח תשרי תשע״ט
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:55\n
+ ·Maariv 7:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1002@sscm.org
+DTSTAMP:20180928
+DTSTART:20180928
+SUMMARY:י״ט תשרי תשע״ט
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ <b>·Shacharis 6:30 / 7:30 / 8:30</b>\n
+ ·Plag HaMincha 5:51\n
+ ·Candle Lighting 6:47\n
+ ·Mincha 6:50\n
+ ·Sunset 7:05\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1003@sscm.org
+DTSTAMP:20180929
+DTSTART:20180929
+SUMMARY:כ׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Chol Hamoed</b>\n
+ ·Sunrise 7:13\n
+ ·Latest Sh'ma 9:34 / 10:10\n
+ ·Chumash Shiur <b>8:00<b>\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ ·Shiurim 5:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Sunset 7:03\n
+ ·Motzoai Shabbos 7:48\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1004@sscm.org
+DTSTAMP:20180930
+DTSTART:20180930
+SUMMARY:כ״א תשרי תשע״ט
+DESCRIPTION:
+ <b>Hoshana Rabba</b>\n
+ ·Sunrise 7:14\n
+ <b>·Shacharis 6:40** / 7:30 / 8:30</b>\n
+ <b>**K'vasikin</b>\n
+ ·Candle Lighting 6:43\n
+ ·Mincha 6:45\n
+ ·Sunset 7:01\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1005@sscm.org
+DTSTAMP:20181001
+DTSTART:20181001
+SUMMARY:כ״ב תשרי תשע״ט
+DESCRIPTION:
+ <b>Shemini Atzeres</b>\n
+ ·Sunrise 7:15\n
+ ·Latest Sh'ma 9:35 / 10:11\n
+ ·Shacharis 8:00 / <b>9:00<b>\n
+ <b>·Yizkor 9:30 / 10:30 (approx.)</b>\n
+ <b>·Mincha 6:30</b>\n
+ ·Sunset 6:59\n
+ ·Candle Lighting <b>after<b> 7:44\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1006@sscm.org
+DTSTAMP:20181002
+DTSTART:20181002
+SUMMARY:כ״ג תשרי תשע״ט
+DESCRIPTION:
+ <b>Simchas Torah</b>\n
+ ·Sunrise 7:16\n
+ ·Latest Sh'ma 9:35 / 10:11\n
+ <b>·Shacharis 6:40** / 8:00</b>\n
+ <b>**K'vasikin</b>\n
+ <b>·Mincha 6:35</b>\n
+ <b>·Neilas Hachag after Mincha</b>\n
+ ·Sunset 6:57\n
+ ·Motzoai Yom Tov 7:42\n
+  \n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1007@sscm.org
+DTSTAMP:20181003
+DTSTART:20181003
+SUMMARY:כ״ד תשרי תשע״ט
+DESCRIPTION:
+ <b>·Shacharis 6:45 / 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:40\n
+ ·Maariv 7:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1008@sscm.org
+DTSTAMP:20181004
+DTSTART:20181004
+SUMMARY:כ״ה תשרי תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Mincha 6:00 / 6:40\n
+ ·Maariv 7:10 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1009@sscm.org
+DTSTAMP:20181005
+DTSTART:20181005
+SUMMARY:כ״ו תשרי תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30 / <b>8:30<b>\n
+ ·Likras Shabbos for Boys 6:05\n
+ ·Plag HaMincha 5:40\n
+ ·Candle Lighting 6:34\n
+ ·Mincha 6:35\n
+ ·Sunset 6:52\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1010@sscm.org
+DTSTAMP:20181006
+DTSTART:20181006
+SUMMARY:כ״ז תשרי תשע״ט
+DESCRIPTION:
+ <b>Bereshis</b>\n
+ <b>Birkas HaChodesh</b>\n
+ ·Sunrise 7:21\n
+ ·Latest Sh'ma 9:37 / 10:13\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 5:20\n
+ ·Navi Shiur 5:35\n
+ ·Mincha 6:20\n
+ ·Sunset 6:50\n
+ ·Shiur 7:20\n
+ ·Motzoai Shabbos 7:35\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1011@sscm.org
+DTSTAMP:20181007
+DTSTART:20181007
+SUMMARY:כ״ח תשרי תשע״ט
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1012@sscm.org
+DTSTAMP:20181008
+DTSTART:20181008
+SUMMARY:כ״ט תשרי תשע״ט
+DESCRIPTION:
+ <b>·Shacharis 7:30 / 8:30</b>\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1013@sscm.org
+DTSTAMP:20181009
+DTSTART:20181009
+SUMMARY:ל׳ תשרי תשע״ט
+DESCRIPTION:
+ <b>Rosh Chodesh Cheshvan</b>\n
+ <b>Ulchapparas Pasha</b>\n
+ ·Earliest Tefillin 6:27 / 6:34\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1014@sscm.org
+DTSTAMP:20181010
+DTSTART:20181010
+SUMMARY:א׳ מרחשון תשע״ט
+DESCRIPTION:
+ <b>Rosh Chodesh Cheshvan</b>\n
+ ·Earliest Tefillin 6:29 / 6:36\n
+ ·Shacharis <b>6:30 / 6:45<b> / 7:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1015@sscm.org
+DTSTAMP:20181011
+DTSTART:20181011
+SUMMARY:ב׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:30\n
+ ·Maariv 7:00 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1016@sscm.org
+DTSTAMP:20181012
+DTSTART:20181012
+SUMMARY:ג׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:55\n
+ ·Plag HaMincha 5:30\n
+ ·Candle Lighting 6:22\n
+ ·Mincha 6:25\n
+ ·Sunset 6:40\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1017@sscm.org
+DTSTAMP:20181013
+DTSTART:20181013
+SUMMARY:ד׳ מרחשון תשע״ט
+DESCRIPTION:
+ <b>Noach</b>\n
+ ·Sunrise 7:29\n
+ ·Latest Sh'ma 9:40 / 10:16\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 5:05\n
+ ·Navi Shiur 5:20\n
+ ·Mincha 6:05\n
+ ·Sunset 6:38\n
+ ·Shiur 7:05\n
+ ·Motzoai Shabbos 7:23\n
+ <b>Yahrzeit of HaRav Yosef Weinreb zt"l</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1018@sscm.org
+DTSTAMP:20181014
+DTSTART:20181014
+SUMMARY:ה׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:20\n
+ ·Maariv 6:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1019@sscm.org
+DTSTAMP:20181015
+DTSTART:20181015
+SUMMARY:ו׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:35 / 6:42\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:20\n
+ ·Maariv 6:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1020@sscm.org
+DTSTAMP:20181016
+DTSTART:20181016
+SUMMARY:ז׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:36 / 6:43\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:20\n
+ ·Maariv 6:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1021@sscm.org
+DTSTAMP:20181017
+DTSTART:20181017
+SUMMARY:ח׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:37 / 6:44\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:20\n
+ ·Maariv 6:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1022@sscm.org
+DTSTAMP:20181018
+DTSTART:20181018
+SUMMARY:ט׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:38 / 6:45\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:20\n
+ ·Maariv 6:50 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1023@sscm.org
+DTSTAMP:20181019
+DTSTART:20181019
+SUMMARY:י׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:40 / 6:47\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:40\n
+ ·Plag HaMincha 5:21\n
+ ·Candle Lighting 6:10\n
+ ·Mincha 6:10\n
+ ·Sunset 6:28\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1024@sscm.org
+DTSTAMP:20181020
+DTSTART:20181020
+SUMMARY:י״א מרחשון תשע״ט
+DESCRIPTION:
+ <b>Lech-Lecha</b>\n
+ ·Sunrise 7:38\n
+ ·Latest Sh'ma 9:44 / 10:20\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:55\n
+ ·Navi Shiur 5:10\n
+ ·Mincha 5:55\n
+ ·Sunset 6:27\n
+ ·Shiur 6:55\n
+ ·Motzoai Shabbos 7:12\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1025@sscm.org
+DTSTAMP:20181021
+DTSTART:20181021
+SUMMARY:י״ב מרחשון תשע״ט
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1026@sscm.org
+DTSTAMP:20181022
+DTSTART:20181022
+SUMMARY:י״ג מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:43 / 6:50\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1027@sscm.org
+DTSTAMP:20181023
+DTSTART:20181023
+SUMMARY:י״ד מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:45 / 6:52\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+ <b>Last night for Kiddush Levana (all night)</b>\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1028@sscm.org
+DTSTAMP:20181024
+DTSTART:20181024
+SUMMARY:ט״ו מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:46 / 6:53\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1029@sscm.org
+DTSTAMP:20181025
+DTSTART:20181025
+SUMMARY:ט״ז מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:47 / 6:54\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 6:00 / 6:05\n
+ ·Maariv 6:35 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1030@sscm.org
+DTSTAMP:20181026
+DTSTART:20181026
+SUMMARY:י״ז מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:49 / 6:56\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Likras Shabbos for Boys 5:30\n
+ ·Plag HaMincha 5:12\n
+ ·Candle Lighting 5:59\n
+ ·Mincha 6:00\n
+ ·Sunset 6:17\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1031@sscm.org
+DTSTAMP:20181027
+DTSTART:20181027
+SUMMARY:י״ח מרחשון תשע״ט
+DESCRIPTION:
+ <b>Vayera</b>\n
+ ·Sunrise 7:47\n
+ ·Latest Sh'ma 9:48 / 10:24\n
+ ·Chumash Shiur 8:15\n
+ ·Shacharis 8:00 / 9:00 / 9:15\n
+ ·Shiurim 4:45\n
+ ·Navi Shiur 5:00\n
+ ·Mincha 5:45\n
+ ·Sunset 6:16\n
+ ·Shiur 6:45\n
+ ·Motzoai Shabbos 7:01\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1032@sscm.org
+DTSTAMP:20181028
+DTSTART:20181028
+SUMMARY:י״ט מרחשון תשע״ט
+DESCRIPTION:
+ ·Shacharis 7:30 / 8:00 / 8:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1033@sscm.org
+DTSTAMP:20181029
+DTSTART:20181029
+SUMMARY:כ׳ מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:52 / 6:59\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1034@sscm.org
+DTSTAMP:20181030
+DTSTART:20181030
+SUMMARY:כ״א מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:54 / 7:01\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+BEGIN:VEVENT
+UID:sscm1035@sscm.org
+DTSTAMP:20181031
+DTSTART:20181031
+SUMMARY:כ״ב מרחשון תשע״ט
+DESCRIPTION:
+ ·Earliest Tefillin 6:55 / 7:02\n
+ ·Shacharis 6:45 / 6:50 / 7:30\n
+ ·Mincha 5:55\n
+ ·Maariv 6:25 / 9:30\n
+END:VEVENT
+END:VCALENDAR
