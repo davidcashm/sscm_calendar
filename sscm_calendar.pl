@@ -1,7 +1,7 @@
 #!perl.exe -w
 
-# sscm_calendar_2017.pl
-# Copyright (C) 2007-2017 David Cashman and Ari Meir Brodsky
+# sscm_calendar_2018.pl
+# Copyright (C) 2007-2018 David Cashman and Ari Meir Brodsky
 # This program is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 
@@ -71,7 +71,7 @@ my $bold_everything_in_ical = 0;
 
 #   Here we set the year and months to output to Excel
    # TODO: HACK: I should make this data driven
-my $curr_year = 2017;
+my $curr_year = 2018;
 my $next_year = $curr_year + 1;
 # Un-comment whichever months are to be printed.
 my @months_to_print = (
@@ -424,14 +424,16 @@ my $sunday_shacharis = "7:30" . $separator . "8:00" . $separator . "8:30";
 #my $holiday_shacharis = $BOLD . $sunday_shacharis;  # for public holidays
 # in 2012 decided to remove 8:00 Shacharis from public holidays because there wasn't a minyan
 my $holiday_shacharis = $BOLD . "7:30" . $separator . "8:30";
-my $shabbos_shacharis = "8:00" . $separator . "9:00" . $separator . "9:15"; # Young Members' Minyan at 9:00 added summer of 2011;
+my $shabbos_shacharis = "8:00" . $separator . "8:55" . $separator . "9:00"; # changed in 2018
+#my $shabbos_shacharis = "8:00" . $separator . "9:00" . $separator . "9:15"; # Young Members' Minyan at 9:00 added summer of 2011;
 # For 5774 switched to using $separator here; this makes the entry 29 characters long so it will wrap unless we widen the Shabbos column
 #my $shabbos_shacharis = "8:00/9:00/9:15"; # not using $separator bcs this sets the width at 25 characters without it
-my $chumash_shiur = "8:15";
+my $chumash_shiur = "8:00";  # used to be "8:15" when Shacharis was at 9:15 until 2018
 #my $yom_tov_shacharis = $BOLD . "9:00 only"; # removed hashkama for 5771 but this was criticized so reinstated it.
-my $yom_tov_shacharis = "8:00" . $separator . $START_BOLD . "9:00$END_BOLD";   # may be too wide if we use $separator
-my $shabbos_shacharis_with_hallel = $yom_tov_shacharis;     # implementing this rule for 5772
-my $chumash_shiur_special = $START_BOLD . "8:00$END_BOLD"; # for Shabbatot when Shacharis is at 9:00 rather than 9:15
+my $yom_tov_shacharis = "8:00" . $separator . $START_BOLD . "9:00$END_BOLD";  # no YMM on yom tov or Shab.ChM
+#my $shabbos_shacharis_with_hallel = $yom_tov_shacharis;     # implementing this rule for 5772, but it ignores the YMM - why?  No longer need it from 2018
+#my $chumash_shiur_special = $START_BOLD . "8:00$END_BOLD"; # for Shabbatot when Shacharis is at 9:00 rather than 9:15
+my $chumash_shiur_pesach = $BOLD . "8:15";	# when first day Pesach falls on Shabbos and Shacharis is 9:15
 my $rosh_chodesh_shacharis = $START_BOLD . "6:30" . $separator . "6:45" . $END_BOLD . $separator . "7:30";
                                             # "$START_BOLD" . "6:35/6:45$END_BOLD/7:30";
 my $earliest_shacharis_before_sunrise = 69; # for Rosh Chodesh and fast days - can't make Shacharis too early
@@ -467,7 +469,7 @@ my %shacharis_time = (
 );
 
 my $womens_avos = "5:30";
-my $teshuva_shiur = "11:45";
+my $teshuva_shiur = "12 midnight"; # was 11:45 originally; changed to 12:00 in 2018, though the e-bulletin said 12:15
 my $first_slichos = "1:00 a.m.";
 my $slichos_erev_RH_sunday = "6:30$only";   # includes public holiday
 my $slichos_erev_RH_weekday = "5:30$only";
@@ -476,7 +478,7 @@ my $slichos_erev_YK_sunday = "7:15" . $separator . "7:45" . $separator . "8:15";
 my $slichos_sunday = "7:00" . $separator . "7:30" . $separator . "8:00";
 my $slichos_public_holiday = "7:00" . $separator . "8:00";
 my $slichos_before_RH = "6:15" . $separator . "6:25" . $separator . "7:00";
-my $slichos_after_RH = "6:15" . $separator . "6:20" . $separator . "7:00";
+my $slichos_after_RH = "6:05" . $separator . "6:15" . $separator . "7:00"; # updated 2018
 
 
 my $early_weekday_mincha = "8:15";
@@ -496,7 +498,7 @@ my $shabbos_rh_mincha_length = 35;      # when Rosh HaShana is on Shabbos
 my $friday_rh_mincha_length = 20;       # for Mincha before Plag (no Avinu Malkeinu anyway; don't want to have to wait for Kabbolas Shabbos)
 my $neilas_hachag_mincha_length = 20;   # need time to wash and start eating neilas hachag
 my $shabbos_no_ss_mincha_length = 25;   # for a Shabbos when there's no Shalosh Seudos, such as erev yom tov or the first day of yom tov
-my $shabbos_no_ss_early_mincha = "2:30";    # early Mincha so people can eat SS at home afterward on erev yom tov or first day of YT
+my $shabbos_no_ss_early_mincha = "2:30";    # early Mincha so people can eat SS at home afterward on erev yom tov or first day of YT (or erev Tisha b'Av?)
 my $shemini_atzeres_mincha_earlier = 15;  # in 2015 moved Mincha earlier on Shemini Atzeres to allow more time for auction
 
 my $shavuos_early_mincha = "6:00";	# added this in 2016
@@ -514,9 +516,10 @@ my $hamelech_YK = "8:40";   # takes a bit longer on YK because start with Anim Z
 my $mincha_erev_YK = $BOLD . "3:00" . $separator . "3:30";
 my $yizkor_YK = "11:30 (approx.)";
 
-my $zachor_time = "(approx.) 9:30" . $separator . "10:25" . $separator . "10:40" . $separator . "11:35";   # hashkama / YMM / main / afterwards
+my $zachor_time = "(approx.) 9:25" . $separator . "10:25" . $separator . "10:25" . $separator . "11:20";   # hashkama / YMM / main / afterwards
 
 my $purim_mincha = $BOLD . "4:00" . $separator . "5:00";
+my $purim_mincha_standard = "1:00" . $separator . $purim_mincha;
 my $motz_purim_maariv = $BOLD . "8:45" . $separator . "9:30";
 
 # minimum lengths before sunrise for Vasikin
@@ -535,6 +538,7 @@ my %pesach_recess_start_date = (
 	5776 => 11,
 	5777 => 8,
 	5778 => 11,
+	5779 => 11,
 );
 
 # siyum times for erev Pesach
@@ -649,7 +653,8 @@ sub main
    }
 
    if (!($output_excel || $output_csv || $output_ical || $output_csvtable)) {
-     croak "Must specify output format (-csv, -excel, -ical)\n";
+   	warn "No output format specified (-csv, -excel, -ical) so producing only .txt file for testing.\n";
+#     croak "Must specify output format (-csv, -excel, -ical)\n";
    }
 
 
@@ -3008,20 +3013,23 @@ sub is_leap($)
 
 
 sub move_shabbos_shacharis_earlier($)
+# STARTING IN 2018, SHABBOS SHACHARIS IS ALWAYS AT 9:00
+# SO THIS FUNCTION SHOULD DO NOTHING!
 # as of 5772, Shabbos Shacharis will be at 9:00 instead of 9:15 on any Hallel day
 # also need to move Mr. Deutsch's Chumash shiur.
 # Note that yamim tovim are handled separately.  NO - for 5772 he said to keep the shiur when yom tov falls on Shabbat so must use this function
 {
-    my ($day) = @_;
-    if ($day->{day_of_week} ne "Sat")
-    {
-        croak "This function is only for Shabbos!\n";
-    }
-    $day->{to_print}->{Shacharis} = $shabbos_shacharis_with_hallel;
-    if (defined($day->{to_print}->{"Chumash Shiur"}))    # check in case it was cancelled for some other reason, though unlikely
-    {
-        $day->{to_print}->{"Chumash Shiur"} = $chumash_shiur_special;
-    }
+	return;   # DOING NOTHING AS OF 2018
+#    my ($day) = @_;
+#    if ($day->{day_of_week} ne "Sat")
+#    {
+#        croak "This function is only for Shabbos!\n";
+#    }
+#    $day->{to_print}->{Shacharis} = $shabbos_shacharis_with_hallel;
+#    if (defined($day->{to_print}->{"Chumash Shiur"}))    # check in case it was cancelled for some other reason, though unlikely
+#    {
+#        $day->{to_print}->{"Chumash Shiur"} = $chumash_shiur_special;
+#    }
 }
 
 
@@ -3273,11 +3281,15 @@ sub handle_pesach
          # that is typically common to all yomim tovim
          handle_yom_tov($first_day_of_pesach_idx,"Erev Pesach","First Day of Pesach","Second Day of Pesach",0);
 
-         # Exceptions for Shacharis: First 2 days of Pesach only 9:15 (and if it's Shabbos must reset Chumash Shiur to 8:15)
+         # Exceptions for Shacharis: First 2 days of Pesach only 9:15 (and if it's Shabbos must set Chumash Shiur to 8:15)
          $list_of_days[$first_day_of_pesach_idx]->{to_print}->{Shacharis} = $pesach_shacharis;
          if (defined $list_of_days[$first_day_of_pesach_idx]->{to_print}->{"Chumash Shiur"})
          {
-            $list_of_days[$first_day_of_pesach_idx]->{to_print}->{"Chumash Shiur"} = $chumash_shiur;
+            $list_of_days[$first_day_of_pesach_idx]->{to_print}->{"Chumash Shiur"} = $chumash_shiur_pesach;
+            #   delete $list_of_days[$first_day_of_pesach_idx]->{to_print}->{"Chumash Shiur"};
+	# it seems to have been cancelled in 2018, is this a permanent change?
+	#  NO!! Mr. Deutsch clarified that the shiur will always take place.
+	# So we list it on this day uniquely at 8:15
          }
          $list_of_days[$first_day_of_pesach_idx+1]->{to_print}->{Shacharis} = $pesach_shacharis;
 
@@ -3294,8 +3306,11 @@ sub handle_pesach
 
             if ($day->{day_of_week} eq "Sat")
             {
+            	# Now that Shacharis on Shabbos is 9:00 always (starting in 2018),
+            	# the difference here is that there is no YMM.
+                $day->{to_print}->{Shacharis} = $yom_tov_shacharis;  
                # starting in 5772, moving Shacharis to 9:00 on any Shabbos Hallel days (exc. first day of Pesach)
-               move_shabbos_shacharis_earlier($day);
+               # move_shabbos_shacharis_earlier($day);
             }
             elsif ($day->{to_print}->{Shacharis} !~ /$sunday_shacharis/
                         && !defined($day->{public_holiday}))
@@ -3736,8 +3751,11 @@ sub handle_succos  # AB: Note that we've always spelled it Succos, not Sukkos.  
 
             if ($day->{day_of_week} eq "Sat")
             {
+            	# Now that Shacharis on Shabbos is 9:00 always (starting in 2018),
+            	# the difference here is that there is no YMM.
+                $day->{to_print}->{Shacharis} = $yom_tov_shacharis;  
                # For Shabbos Chol Hamoed Succos, Shacharis has been at 9:00 for many years
-               move_shabbos_shacharis_earlier($day);
+               # move_shabbos_shacharis_earlier($day);
                #$day->{to_print}->{Shacharis} = $shabbos_chol_hamoed_succos_shacharis;
                #$day->{to_print}->{"Chumash Shiur"} = $chumash_shiur_special;
             }
@@ -4893,7 +4911,7 @@ sub handle_purim
 
       if ($day->{day_of_week} ne "Fri")
       {
-         $day->{to_print}->{Mincha} = $purim_mincha;
+         $day->{to_print}->{Mincha} = is_during_DST($day) ? $purim_mincha : $purim_mincha_standard; # added 1:00 Mincha in 2018
          $day->{to_print}->{Maariv} = $motz_purim_maariv;
          remove_notes($day, "Tehillim after late Maariv");
       }
@@ -5036,6 +5054,11 @@ sub handle_tisha_bav  # includes labelling Shabbos Chazon and Shabbos Nachamu (A
          add_early_shabbos_mincha_if_applicable($erev);
 	warn "Check Shabbos Mincha schedule for erev Tisha B'Av on " . print_date($erev) .  "\n";
 	### NOTE IN 2016 THEY ADDED 2:30 MINCHA (the regular one was at 6:20)
+	## Meaning:  If the main Mincha was early enough that we wouldn't add a 6:00 Mincha, then add 2:30:
+	if ($erev->{to_print}->{Mincha} !~/$early_shabbos_mincha/)
+	{
+		$erev->{to_print}->{Mincha} = $shabbos_no_ss_early_mincha . $separator . $mincha;
+	}
 
          # Until 2012 we scheduled Maariv at least 25 minutes after motzoai shabbos.
          # But in 2012 people complained it was too early for those who keep 72 min
@@ -7911,7 +7934,7 @@ sub set_up_for_printing ($$$)
    #my $normal_width = 18.5;     # really 18+4/7
    #my $narrow_width = 18.4;     # really 18+3/7
 
-   my $saturday_width = 24.4;   # really 24+3/7, which is big enough for 29 characters
+   my $saturday_width = 24.43;   # really 24+3/7, which is big enough for 29 characters
    my $normal_width = 18.3;     # really 18+2/7
    my $narrow_width = 18.1;     # really 18+1/7
 
