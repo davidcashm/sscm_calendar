@@ -1730,70 +1730,79 @@ sub prepare_print_order()
 
 sub dump_csvtable()
 {
-   warn "Producing .csv file output in table format .\n";
-   my $output_filename = "sscm_calendar_table.csv";
-   open (UTFOUT, ">$output_filename") || croak "Error: couldn't open $output_filename\n";
-   # Michael Mann wants the date in Hebrew
-   binmode(UTFOUT, ":utf8");
-
-   my @headings = ("Shacharis", "Mincha", "Maariv");
-   # Header
-   print UTFOUT "Date";
-   for my $h (@headings) {
-     print UTFOUT ",$h";
-   }
-   print UTFOUT "\n";
-
-   foreach my $day (@list_of_days)
-   {
-      my $idx = $day->{idx};
-      if ($idx == 0)
-      {
-         next;
-      }
-
-      # FIX THIS - NEED TO SET THE MONTHS TO OUTPUT - should probably be the same as used for the Excel output
-      if ($idx < index_of_date($curr_year,9,1) || $idx > index_of_date($next_year,10,31))
-      {
-            next;
-      }
-      
-      # For now, we only want Sun-Thurs for this format
-      if ($day->{day_of_week} eq "Fri" || $day->{day_of_week} eq "Sat") {
-        next;
-      }
-
-      my $eng_date = $day->{Eyear} . "/" . $day->{Emon} . "/" . $day->{Eday};
-
-      print UTFOUT "$eng_date";
-
+   for my $cal ("weekday", "shabbos") {
+      warn "Producing .csv file output in table format .\n";
+      my $print_weekday = $cal eq "weekday";
+      $output_filename = "sscm_calendar_table_$cal.csv";
+      open (UTFOUT, ">$output_filename") || croak "Error: couldn't open $output_filename\n";
+      # Michael Mann wants the date in Hebrew
+      binmode(UTFOUT, ":utf8");
+   
+      my @weekday_headings = ("Shacharis", "Mincha", "Maariv");
+      my @shabbos_headings = ("Chumash Shiur", "Shacharis", "Shiurim", "Mincha",
+        "Shiur", "Motzoai Shabbos");
+      my @headings = $print_weekday ? @weekday_headings : @shabbos_headings;
+      # Header
+      print UTFOUT "Date";
       for my $h (@headings) {
-        my $rawtime = $day->{to_print}->{$h};
-        if (defined($rawtime)) {
-          $rawtime = clean_time($rawtime);
-
-          my ($time, $bold, $italic, $partial_bold, $size)  = identify_special_codes($rawtime);
-          
-          $time =~ s/$START_BOLD/<b>/g;
-          $time =~ s/$END_BOLD/<\/b>/g;
-          if ($bold) {
-            $time = "<b>$time</b>";
-          }
-          if ($italic) {
-            $time = "<em>$time</em>";
-          }
-
-          print UTFOUT ",$time";
-        }
-        else {
-          print UTFOUT ",";
-        }
+        print UTFOUT ",$h";
       }
       print UTFOUT "\n";
+   
+      foreach my $day (@list_of_days)
+      {
+         my $idx = $day->{idx};
+         if ($idx == 0)
+         {
+            next;
+         }
+   
+         # FIX THIS - NEED TO SET THE MONTHS TO OUTPUT - should probably be the same as used for the Excel output
+         if ($idx < index_of_date($curr_year,9,1) || $idx > index_of_date($next_year,10,31))
+         {
+               next;
+         }
+         
+         # Never print for Friday
+         if ($day->{day_of_week} eq "Fri") {
+           next;
+         }
+         if (($day->{day_of_week} eq "Sat") == $print_weekday) {
+           next;
+         }
+   
+         my $eng_date = $day->{Eyear} . "/" . $day->{Emon} . "/" . $day->{Eday};
+   
+         print UTFOUT "$eng_date";
+   
+         for my $h (@headings) {
+           my $rawtime = $day->{to_print}->{$h};
+           if (defined($rawtime)) {
+             $rawtime = clean_time($rawtime);
+   
+             my ($time, $bold, $italic, $partial_bold, $size)  = identify_special_codes($rawtime);
+             
+             $time =~ s/$START_BOLD/<b>/g;
+             $time =~ s/$END_BOLD/<\/b>/g;
+             if ($bold) {
+               $time = "<b>$time</b>";
+             }
+             if ($italic) {
+               $time = "<em>$time</em>";
+             }
+   
+             print UTFOUT ",$time";
+           }
+           else {
+             print UTFOUT ",";
+           }
+         }
+         print UTFOUT "\n";
+      }
    }
 }
-
-
+   
+   
 sub dump_csv()
 {
    # Dump calendar as csv with specs from website guy Michael Mann (as amended from trials with Raffaele Care).
@@ -1803,7 +1812,7 @@ sub dump_csv()
    #    Text delimiter:     None
    #    Escape character:   None
    warn "Producing .csv file output; tell them the fields are pipe-separated with no text delimiter.\n";
-   my $output_filename = "sscm_calendar.csv";
+   $output_filename = "sscm_calendar.csv";
    open (UTFOUT, ">$output_filename") || croak "Error: couldn't open $output_filename\n";
    # Michael Mann wants the date in Hebrew
    binmode(UTFOUT, ":utf8");
