@@ -1730,9 +1730,11 @@ sub prepare_print_order()
 
 sub dump_csvtable()
 {
-   for my $cal ("weekday", "shabbos") {
+   for my $cal ("weekday", "shabbos", "friday") {
       warn "Producing .csv file output in table format .\n";
       my $print_weekday = $cal eq "weekday";
+      my $print_friday = $cal eq "friday";
+      my $print_saturday = $cal eq "shabbos";
       $output_filename = "sscm_calendar_table_$cal.csv";
       open (UTFOUT, ">$output_filename") || croak "Error: couldn't open $output_filename\n";
       # Michael Mann wants the date in Hebrew
@@ -1741,7 +1743,11 @@ sub dump_csvtable()
       my @weekday_headings = ("Shacharis", "Mincha", "Maariv");
       my @shabbos_headings = ("Chumash Shiur", "Shacharis", "Shiurim", "Mincha",
         "Shiur", "Motzoai Shabbos");
-      my @headings = $print_weekday ? @weekday_headings : @shabbos_headings;
+      my @friday_headings = ("Shacharis", "Likras Shabbos for Boys", 
+        "Plag HaMincha", "Candle Lighting", "Mincha", "Sunset", "Learning Program for Boys");
+      my @headings = $print_weekday ? @weekday_headings :
+                     $print_friday ? @friday_headings : 
+                     @shabbos_headings;
       # Header
       print UTFOUT "Date";
       for my $h (@headings) {
@@ -1763,11 +1769,17 @@ sub dump_csvtable()
                next;
          }
          
-         # Never print for Friday
          if ($day->{day_of_week} eq "Fri") {
-           next;
+           if (!$print_friday) {
+            next;
+          }
          }
-         if (($day->{day_of_week} eq "Sat") == $print_weekday) {
+         elsif ($day->{day_of_week} eq "Sat") {
+          if (!$print_saturday) {
+            next;
+          }
+         }
+         elsif (!$print_weekday) {
            next;
          }
    
