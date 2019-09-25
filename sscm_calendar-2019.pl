@@ -60,10 +60,13 @@ my $renovation = 0;
 
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
-my $output_excel = 0;
+my $output_excel = 1;
 my $output_ical = 0;
 my $output_csv = 0; # for the Michael Mann website thing
 my $output_csvtable = 0; # csv with headings and filtered columns
+
+my $with_730 = 0;   # whether or not there is a 7:30 Shabbos morning minyan; uncertainty in fall 5780
+my $YMM_is_uncertain = 1; # in 5780 the time is being tested
 
 # Shmuel wanted us to just put bold around all of the categories and none of the
 # times, but then he changed his mind.
@@ -71,7 +74,7 @@ my $bold_everything_in_ical = 0;
 
 #   Here we set the year and months to output to Excel
    # TODO: HACK: I should make this data driven
-my $curr_year = 2018;
+my $curr_year = 2019;
 my $next_year = $curr_year + 1;
 # Un-comment whichever months are to be printed.
 my @months_to_print = (
@@ -91,8 +94,6 @@ my @months_to_print = (
             "$next_year,10"
 );
 
-my $with_730 = 1;   # whether or not there is a 7:30 Shabbos morning minyan; uncertainty in fall 5780
-
 
 # Do we want to print half or the entire month to each excel sheet.
 # I set this where I set the specific months to print.
@@ -108,11 +109,13 @@ my $default_hebcal_file = "dates.txt";
 
 
 #  This needs to be inserted on the Excel page for months from March through September.  -AB
-my $kindly_note = #"* Kindly Note:  ". chr(10).         # [Decimal value - chr(10) is Line Feed]
+my $kindly_note = #"** Kindly Note:  ". chr(10).         # [Decimal value - chr(10) is Line Feed]
                         "The time for Candle Lighting listed in the calendar is to be regarded ".#chr(10).
                         "where the household commences the observance of Shabbos at the regular hour.".chr(10).
                         "In the household where the observance of Shabbos commences earlier, ".#chr(10).
                         "the candles should not be lit before Plag HaMincha.";
+
+my $YMM_note = "* Young Members' Minyan time subject to change;"  . chr(10) . " please consult an updated electronic version of calendar to confirm.";
 
 # AB:
 # Set to 1 to generate output for a calendar date on a single line with comma-separated fields.
@@ -350,7 +353,7 @@ my %special_functions_map =
 #   Parasha => $NOTITLE . $NOBULLET . $FONT14 . $BOLD,  # This field is not used
    "Slichos" => $BOLD,
 #   SpecialShabbos => $NOTITLE . $NOBULLET . $BOLD,
-   "**K'vasikin" => $NOBULLET . $BOLD,
+   "***K'vasikin" => $NOBULLET . $BOLD,
    "Megillas Esther " => $BOLD,
    "Siyum & Breakfast" => $BOLD,
    "Shofar" => $BOLD,
@@ -414,6 +417,31 @@ my %gematria_vals =
    400 => "$tav"
 );
 
+my %gematria_end_vals =
+(
+   1 => "$alef",
+   2 => "$bet",
+   3 => "$gimel",
+   4 => "$dalet",
+   5 => "$heh",
+   6 => "$vav",
+   7 => "$zayin",
+   8 => "$chet",
+   9 => "$tet",
+   10 => "$yud",
+   20 => $end_kaf,
+   30 => "$lamed",
+   40 => $end_mem,
+   50 => $end_nun,
+   60 => "$samech",
+   70 => "$ayin",
+   80 => $end_pe,
+   90 => $end_tzadi,
+   100 => "$kuf",
+   200 => "$resh",
+   300 => "$shin",
+   400 => "$tav"
+);
 
 # Maps from day to shacharis times.
 my $early_shacharis = "6:45" . $separator . "6:50" . $separator . "7:30";
@@ -427,7 +455,9 @@ my $holiday_shacharis = $BOLD . "7:30" . $separator . "8:30";
 my $shabbos_shacharis_5779 = "8:00" . $separator . "8:55" . $separator . "9:00"; # changed in 2018
 my $shabbos_shacharis_with_730 = "7:30" . $separator . "8:30" . $separator . "9:00" . $separator . "9:15";
 my $shabbos_shacharis_without_730  = "8:30" . $separator . "8:55" . $separator . "9:00";
-my $shabbos_shacharis = $with_730 ? $shabbos_shacharis_with_730 : $shabbos_shacharis_without_730;
+my $shabbos_shacharis_compromise  = "8:30" . $separator . "9:00" . $separator . "9:15*";
+# my $shabbos_shacharis = $with_730 ? $shabbos_shacharis_with_730 : $shabbos_shacharis_without_730;
+my $shabbos_shacharis = $shabbos_shacharis_compromise;
 #my $shabbos_shacharis = "8:00" . $separator . "9:00" . $separator . "9:15"; # Young Members' Minyan at 9:00 added summer of 2011;
 # For 5774 switched to using $separator here; this makes the entry 29 characters long so it will wrap unless we widen the Shabbos column
 #my $shabbos_shacharis = "8:00/9:00/9:15"; # not using $separator bcs this sets the width at 25 characters without it
@@ -448,7 +478,7 @@ my $chanuka_shacharis = "6:45" . $separator . "6:50" . $separator . "7:30";
 my $tisha_bav_weekday_shacharis = $BOLD . "6:30" . $separator . "7:30" . $separator . "8:30";
 my $tisha_bav_sunday_shacharis = $BOLD . "7:30" . $separator . "8:30";
 my $shavuos_shacharis = $BOLD . "9:00"; # also add vasikin
-#my $shavuos_shacharis = $BOLD . "5:00**/9:00";
+#my $shavuos_shacharis = $BOLD . "5:00***/9:00";
 # Rosh Hashana.
 my $rh_shacharis = $START_BOLD . "8:00$only". $END_BOLD;
 my $yk_shacharis = $rh_shacharis;
@@ -513,7 +543,7 @@ my $likras_shabbos_length = 30;
 my $mishnayos_time = "8:00";
 my $yizkor_time = "9:30" . $separator . "10:30 (approx.)";    # for the 3 regalim, not Yom Kippur (first time is hashkama)
 my $shavuos_learning_program = "11:45";
-my $shofar = "11:00 (approx.)";		# changed to 11:00 by Rabbi Felder's request in 2015
+my $shofar = "10:40 (approx.)";		# changed to 11:00 by Rabbi Felder's request in 2015, then to 10:40 in 2019 (was 10:30 in 2018 by e-mail notice)
 my $hamelech_RH = "8:35";  # for yamim noraim
 my $hamelech_YK = "8:40";   # takes a bit longer on YK because start with Anim Zmiros
 my $mincha_erev_YK = $BOLD . "3:00" . $separator . "3:30";
@@ -521,7 +551,9 @@ my $yizkor_YK = "11:30 (approx.)";
 
 my $zachor_time_with_730 = "(approx.) 8:55" . $separator . "9:55" . $separator . "10:25" . $separator . "10:40" . $separator . "11:20";
 my $zachor_time_without_730 = "(approx.) 9:55" . $separator . "10:20" . $separator . "10:25" . $separator . "11:20";
-my $zachor_time = $with_730 ? $zachor_time_with_730 : $zachor_time_without_730;
+my $zachor_time_compromise = "(approx.) 9:55" . $separator . "10:25" . $separator . "10:40" . $separator . "11:20";
+# my $zachor_time = $with_730 ? $zachor_time_with_730 : $zachor_time_without_730;
+my $zachor_time = $zachor_time_compromise;
 # my $zachor_time = "(approx.) 9:25" . $separator . "10:25" . $separator . "10:25" . $separator . "11:20";   # OLD VERSION TILL 5779: hashkama / YMM / main / afterwards
 
 my $purim_mincha = $BOLD . "4:00" . $separator . "5:00";
@@ -577,7 +609,7 @@ my @print_order = (
 "Mishnayos",
 "Chumash Shiur",
 "Shacharis",
-"**K'vasikin",  # this will indicate that a time listed above for Shacharis is k'vasikin
+"***K'vasikin",  # this will indicate that a time listed above for Shacharis is k'vasikin
 # See comment where I use this on purim.
 "Megillas Esther ",
 "Yeshivas Mordechai HaTzaddik",
@@ -1146,7 +1178,7 @@ sub apply_basic_rules()
          if ($mincha =~ /7:15|\/|$separator/)
          {
             $day->{to_print}->{"Candle Lighting"} =
-               $day->{to_print}->{"Candle Lighting"} . "*";
+               $day->{to_print}->{"Candle Lighting"} . "**";
          }
 
          $day->{to_print}->{Sunset} = $sunset;
@@ -1191,7 +1223,7 @@ sub apply_basic_rules()
 	#  Navi shiur started in summer 5774.  Adding in calendar for 5775:
             if (!yom_tov_season($day))
             {
-            	my $navi = subtract_minutes($day->{to_print}->{Mincha}, 45);
+            	my $navi = subtract_minutes($day->{to_print}->{Mincha}, get_Navi_length($day));
             	if (is_earlier($navi,"3:40"))
             	{
             	    $navi = "3:40";
@@ -2490,7 +2522,7 @@ sub get_friday_mincha ($$)
    # Not sure whether the end date for two Minchas will be correct.  Check this!
    # Tweaked again for 5772 after Executive decision on Wed. Sept. 21, 2011
    $early_mincha =~ s/7:10/7:05/;   # so it will not get later than 7:05
-   if (!is_earlier($mincha,"7:00") && !$force_late && $early_mincha !~ "7:10")
+   if (!is_earlier($early_mincha,"5:35") && !$force_late && $early_mincha !~ "7:10")
    {
         $mincha = $early_mincha . $separator . $mincha;
    }
@@ -3366,8 +3398,8 @@ sub handle_pesach
             ## AB In 2002 even the 7th day of Pesach was before DST, using the old rules.
          }
 
-         $day->{to_print}->{"Candle Lighting"} .= "*";
-#            $day->{to_print}->{"Candle Lighting"} . "*";
+         $day->{to_print}->{"Candle Lighting"} .= "**";
+#            $day->{to_print}->{"Candle Lighting"} . "**";
          $day->{to_print}->{"Mincha"} = $BOLD . get_friday_mincha($day,0);
          $day->{to_print}->{"Plag HaMincha"} = compute_plag(get_sunrise($day),get_sunset($day));
 
@@ -4081,7 +4113,7 @@ sub handle_yom_tov($$$$$)
         $erev->{to_print}->{Shiurim} = subtract_minutes($erev_main_mincha,60);
         if (defined ($erev->{to_print}->{"Navi Shiur"}))
         {
-        		$erev->{to_print}->{"Navi Shiur"} = subtract_minutes($erev_main_mincha,45);
+        		$erev->{to_print}->{"Navi Shiur"} = subtract_minutes($erev_main_mincha, get_Navi_length($erev));
         }
 
         delete $erev->{to_print}->{Avos};
@@ -4240,7 +4272,7 @@ sub handle_yom_tov($$$$$)
         }
         if (defined ($first_day->{to_print}->{"Navi Shiur"}))
         {
-            $first_day->{to_print}->{"Navi Shiur"} = subtract_minutes($first_day->{to_print}->{Mincha},45);
+            $first_day->{to_print}->{"Navi Shiur"} = subtract_minutes($first_day->{to_print}->{Mincha}, get_Navi_length($first_day));
         }
         ### Adding 2:00(2:30) Mincha Gedola for same reason as when erev yom tov falls on Shabbos,
         ### but presumably not for Rosh HaShana since morning davening ends so late!
@@ -4746,8 +4778,8 @@ sub handle_fast_days
 
          # All fasts end 42 minutes after sunset.
          # TODO: 17 of Tamuz is unclear, it may be 45.
-         $day->{to_print}->{"Fast ends"} = add_minutes($sunset,42) . "**";
-         add_notes($day,"**For extenuating circumstances please consult the Rav");
+         $day->{to_print}->{"Fast ends"} = add_minutes($sunset,42) . "***";
+         add_notes($day,"***For extenuating circumstances please consult the Rav");
       }
    }
 }
@@ -5132,8 +5164,8 @@ sub handle_tisha_bav  # includes labelling Shabbos Chazon and Shabbos Nachamu (A
       $day->{to_print}->{Maariv} =
             round_up_to_5_minutes(add_minutes($sunset,30)) . "$BOLD$only";
       remove_notes($day, "Tehillim after late Maariv");
-      $day->{to_print}->{"Fast ends"} = add_minutes($sunset,45) . "**";
-      add_notes($day,"**For extenuating circumstances please consult the Rav");
+      $day->{to_print}->{"Fast ends"} = add_minutes($sunset,45) . "***";
+      add_notes($day,"***For extenuating circumstances please consult the Rav");
 
 
       # AB: Shabbos before Tisha B'Av is Shabbos Chazon:
@@ -5232,7 +5264,7 @@ sub list_misc_days()
             # $day->{to_print}->{Mincha} =  $BOLD . "4:00";
             # Shiurim are at 3:40 anyway so they don't have to be rescheduled.
 	#  But the Navi shiur might be later so we have to move it:
-            my $navi = subtract_minutes($day->{to_print}->{Mincha}, 45);
+            my $navi = subtract_minutes($day->{to_print}->{Mincha}, get_Navi_length($day));
             if (is_earlier($navi,"3:40"))
             {
                 $navi = "3:40";
@@ -5965,7 +5997,7 @@ sub calculate_vasikin($)
     my $sunrise = get_sunrise($day);
     $day->{to_print}->{Sunrise} = $sunrise;
     my $vasikin = round_down_to_5_minutes(subtract_minutes($sunrise,$length));
-    $vasikin .= "**";
+    $vasikin .= "***";
 
     # these lines are from a previous version
     #my $shacharis = $day->{to_print}->{Shacharis};
@@ -5975,7 +6007,7 @@ sub calculate_vasikin($)
     #    croak "Vasikin minyan needs to be labelled with asterisks on " . print_date($day) . "\n" .
     #        "Shacharis is now listed as $shacharis \n";
     #}
-    $day->{to_print}->{"**K'vasikin"} = $NOTIME;
+    $day->{to_print}->{"***K'vasikin"} = $NOTIME;
     return $vasikin;
 }
 
@@ -6965,6 +6997,18 @@ sub yom_tov_season($)   # are we between Rosh HaShana and Isru Chag Sukkos, or a
 	return ($month_idx == 1 && $hday < 25) || ($month_idx == 7 && $hday >6 && $hday < 24);
 }
 
+sub from_DST_to_RH($)   # are we between the beginning of DST and Rosh HaShana
+{
+  my ($day) = @_;
+  return (is_during_DST($day) && $hebrew_month_index{$day->{Hmon}} > 5);
+}
+
+sub get_Navi_length($)
+{
+  my ($day) = @_;
+  return (from_DST_to_RH($day) ? 45 : 30);
+}
+
 sub get_good_friday_day_index($)    #### This function no longer used!!!
 {
 
@@ -7812,8 +7856,20 @@ sub print_half_month_to_excel ($$$$)
    # This is a hack, which seems to work as long as we're doing the month on two pages,
    # but even then it's not guaranteed to put the note in the right place.
    # Fix this later.
-   if ($sheet->{Name} =~ /_[3456789]_2/)
-   {
+   #### MAY NEED TO MANUALLY RESIZE BOTTOM ROW!!!!!
+    my $footnote_text = "";
+    if ($start_day->{Eday} > 1 && $YMM_is_uncertain && ($start_day->{Emon} != 9 || $start_day->{Eyear} != 2019))
+    {
+      $footnote_text = $footnote_text . $YMM_note . chr(10) . chr(10);
+      warn "May need to manually resize bottom row because of YMM note!";
+    }
+
+    if ($sheet->{Name} =~ /_[3456789]_2/)
+    {
+        $footnote_text = $footnote_text . "** Kindly Note:  " . chr(10) . $kindly_note;
+    }
+    if ($footnote_text ne "")
+    {
       if ($col>3)
       {
             $row++;
@@ -7828,17 +7884,19 @@ sub print_half_month_to_excel ($$$$)
 #      merge_range($sheet, 46, 4, 46, 7);
 #      merge_range($sheet, 47, 4, 47, 7);
       $sheet->Cells($row,4)->{Font}->{Bold} = 1;
-#      $sheet->Cells($row,4)->{Value} = "* Kindly Note:  ";
+#      $sheet->Cells($row,4)->{Value} = "** Kindly Note:  ";
 #      $row++;
 #      merge_range($sheet, $row, 4, $row, 7);
-      insert_in_cell($sheet,$row,4, "* Kindly Note:  " . chr(10) . $kindly_note);
-      wrap_text($sheet,$row,4,$row,4);
+
+        insert_in_cell($sheet,$row,4, $footnote_text);
+        wrap_text($sheet,$row,4,$row,4);
 #      $sheet->Cells(44,4)->{Value} = "The time for Candle Lighting listed in the calendar is to be regarded";
 #      $sheet->Cells(45,4)->{Value} = "where the household commences the observance of Shabbos at the regular hour.";
 #      $sheet->Cells(46,4)->{Value} = "In the household where the observance of Shabbos commences earlier,";
 #      $sheet->Cells(47,4)->{Value} = "the candles should not be lit before Plag HaMincha.";
 
-   }
+
+    }
 
    set_up_for_printing($sheet, $row, 7);
 #   set_up_for_printing($sheet, $end_row_of_current_date, 7);
@@ -8390,9 +8448,9 @@ sub convert_number_to_hebrew($$)
    if ($val < 10 || $val % 10 == 0)
    {
       # Single letter
-      $string = $gematria_vals{$val} or croak "Bug\n";
       if (defined($hundreds))
       {
+        $string = $gematria_end_vals{$val}; # or croak "Bug\n";
          $string = $hundreds . $gershayim . $string;
          if ($val =~ /20|40|50|80|90/)
          {
@@ -8401,6 +8459,7 @@ sub convert_number_to_hebrew($$)
       }
       else
       {
+        $string = $gematria_vals{$val} or croak "Bug\n";
          ## AMB In this case let's go left-to-right; maybe less buggy
          #### NO!!  We're now replacing "\'" with $geresh, which is a RTL character, so everything should be entered in logical order
          $string = $string . $geresh;
