@@ -6483,6 +6483,9 @@ sub apply_special_quirks()
         [2018,8,11],
         [2018,8,25],
         [2018,10,2],
+        [2019,10,22],
+        [2020,7,30],
+        [2020,10,11],
     );
 
 #    if (!$output_csv)
@@ -8052,6 +8055,13 @@ sub set_up_for_printing ($$$)
 		$normal_width = 17.7;
 		$narrow_width = 17.6;
 		my $friday_width = 18.1;
+
+    if ($YMM_is_uncertain)
+    {
+      $saturday_width = 25.4; # actually gives 25.29 for some strange reason?
+      $normal_width = 17.6;
+      $narrow_width = 17.5;
+    }
 
    # This is absurd, but I can't figure out an easy way to turn
    # column numbers into the letters that Excel wants.
