@@ -60,10 +60,10 @@ my $renovation = 0;
 
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
-my $output_excel = 1;
-my $output_ical = 0;
-my $output_csv = 0; # for the Michael Mann website thing
-my $output_csvtable = 0; # csv with headings and filtered columns
+my $output_excel = 0;
+my $output_ical = 1;
+my $output_csv = 1; # for the Michael Mann website thing
+my $output_csvtable = 1; # csv with headings and filtered columns
 
 my $with_730 = 0;   # whether or not there is a 7:30 Shabbos morning minyan; uncertainty in fall 5780
 my $YMM_is_uncertain = 1; # in 5780 the time is being tested
@@ -1185,9 +1185,10 @@ sub apply_basic_rules()
          $day->{to_print}->{"Plag HaMincha"} = compute_plag($sunrise,$sunset);
 	if (! ($day->{Emon} == "8"))	# doesn't run in August
 	{
-		$day ->{to_print}->{"Likras Shabbos for Boys"} = subtract_minutes($mincha, $likras_shabbos_length);
+#		$day ->{to_print}->{"Likras Shabbos for Boys"} = subtract_minutes($mincha, $likras_shabbos_length);
 			# Likras Shabbos will count from early Mincha when there is one,
 			# but we will also need to make adjustments for special days.
+      ##### Likras Shabbos is NO LONGER RUNNING as of 2019.
 	}
 
 	## Friday night learning program for boys grades 6 through high school
@@ -1782,7 +1783,7 @@ sub dump_csvtable()
       my @weekday_headings = ("Shacharis", "Mincha", "Maariv");
       my @shabbos_headings = ("Chumash Shiur", "Shacharis", "Shiurim", "Mincha",
         "Shiur", "Motzoai Shabbos");
-      my @friday_headings = ("Shacharis", "Likras Shabbos for Boys",
+      my @friday_headings = ("Shacharis", # "Likras Shabbos for Boys",
         "Plag HaMincha", "Candle Lighting", "Mincha", "Sunset", "Learning Program for Boys");
       my @headings = $print_weekday ? @weekday_headings :
                      $print_friday ? @friday_headings :
