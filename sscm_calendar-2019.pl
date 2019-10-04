@@ -61,9 +61,9 @@ my $renovation = 0;
 # Set each flag to 1 to construct the corresponding output type; 0 to omit that output
 # (text file output will always be created)
 my $output_excel = 0;
-my $output_ical = 1;
-my $output_csv = 1; # for the Michael Mann website thing
-my $output_csvtable = 1; # csv with headings and filtered columns
+my $output_ical = 0;
+my $output_csv = 0; # for the Michael Mann website thing
+my $output_csvtable = 0; # csv with headings and filtered columns
 
 my $with_730 = 0;   # whether or not there is a 7:30 Shabbos morning minyan; uncertainty in fall 5780
 my $YMM_is_uncertain = 1; # in 5780 the time is being tested
@@ -511,7 +511,7 @@ my $slichos_erev_YK_sunday = "7:15" . $separator . "7:45" . $separator . "8:15";
 my $slichos_sunday = "7:00" . $separator . "7:30" . $separator . "8:00";
 my $slichos_public_holiday = "7:00" . $separator . "8:00";
 my $slichos_before_RH = "6:15" . $separator . "6:25" . $separator . "7:00";
-my $slichos_after_RH = "6:05" . $separator . "6:15" . $separator . "7:00"; # updated 2018
+my $slichos_after_RH = "6:05" . $separator . "6:10" . $separator . "7:00"; # updated 2019
 
 
 my $early_weekday_mincha = "8:15";
@@ -3631,6 +3631,8 @@ sub handle_rosh_hashana_and_slichos
          {
             $list_of_days[$first_day_idx+1]->{to_print}->{Shofar} = $shofar;
          }
+
+         warn "Check Shofar times as they keep fluctuating! \n";
 
          ## There was Tehillim in 5768 when R' Marcus zt"l was ill but hasn't continued since
          # $list_of_days[$first_day_idx]->{to_print}->{Tehillim} = subtract_minutes($list_of_days[$first_day_idx]->{to_print}->{Mincha}, 30);
